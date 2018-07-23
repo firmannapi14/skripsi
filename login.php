@@ -80,19 +80,24 @@
           
         } else {
 
-        $cek1       = mysqli_query($conn, "SELECT * FROM tb_mahasiswa 
+        $cek2       = mysqli_query($conn, "SELECT * FROM tb_mahasiswa 
                                   WHERE username ='$username' AND password ='$password'");
-        $data      = mysqli_fetch_array($cek1); ?>
+        $data      = mysqli_fetch_array($cek2);
+        $jumlah2    = mysqli_num_rows($cek2);
         
-        <div class="callout callout-success">
-          <p>Login Success <i class="fa fa-check"></i></p>
-        </div>
+        if ($jumlah2 > 0) {
+        ?>
+        
+            <div class="callout callout-success">
+              <p>Login Success <i class="fa fa-check"></i></p>
+            </div>
 
-        <?php
-          $_SESSION['username'] = $data['username'];  
-          $_SESSION['password'] = $data['password'];
-          echo"<meta http-equiv='refresh' content='1;
-          url=index.php?tampil=mahasiswa'>";
+            <?php
+              $_SESSION['username'] = $data['username'];  
+              $_SESSION['password'] = $data['password'];
+              echo"<meta http-equiv='refresh' content='1;
+              url=index.php?tampil=mahasiswa'>";
+            }
         }
 
 
