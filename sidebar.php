@@ -28,10 +28,5 @@
     </a>
   </li>
   
-  <li class="<?php if ($_GET['tampil'] == 'logout'){ echo "active"; }?>">
-    <a href="?tampil=logout">
-      <i class="fa fa-sign-out"></i> <span>Keluar</span>
-    </a>
-  </li>
 
 </ul>

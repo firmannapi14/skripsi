@@ -13,25 +13,28 @@
   elseif ($tampil == "mahasiswa_edit") include("page/mahasiswa/mahasiswa_edit.php");
   elseif ($tampil == "mahasiswa_editpro") include("page/mahasiswa/mahasiswa_editpro.php");
   elseif ($tampil == "mahasiswa_hapus") include("page/mahasiswa/mahasiswa_hapus.php");
+
+  // ------------------------ SERTIFIKAT ------------------------
+  elseif ($tampil == "profil") include("page/profil/profil.php");
+  elseif ($tampil == "admin_editpro") include("page/profil/admin_editpro.php");
+  elseif ($tampil == "mhs_editpro") include("page/profil/mhs_editpro.php");
+
   
   // ------------------------ ADMIN ------------------------
   elseif ($tampil == "admin") include("page/admin/admin.php");
 
-    // ------------------------ MAHASISWA ------------------------
-    elseif ($tampil == "mahasiswa") include("page/mahasiswa/mahasiswa.php");
+  // ------------------------ MAHASISWA ------------------------
+  elseif ($tampil == "mahasiswa") include("page/mahasiswa/mahasiswa.php");
 
   // ------------------------ DATA OLAH------------------------
   elseif ($tampil == "dataolah") include("page/dataolah/dataolah.php");
 
-    // ------------------------ KLASIFIKASI ------------------------
-    elseif ($tampil == "klasifikasi") include("page/klasifikasi/klasifikasi.php");
+  // ------------------------ KLASIFIKASI ------------------------
+  elseif ($tampil == "klasifikasi") include("page/klasifikasi/klasifikasi.php");
 
-      // ------------------------ SERTIFIKAT ------------------------
+  // ------------------------ SERTIFIKAT ------------------------
   elseif ($tampil == "sertifikat") include("page/sertifikat/sertifikat.php");
 
-
-
-  
 else echo"Konten tidak ada";
 
 ?>
