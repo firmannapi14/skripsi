@@ -7,7 +7,7 @@
     session_destroy();
     echo"<strong>Logout Success</strong>";
     echo"<meta http-equiv='refresh' content='1;
-        url=login.php";
+        url=login.php'>";
     ?>
     
     <span class="glyphicon glyphicon-ok"></span>
