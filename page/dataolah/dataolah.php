@@ -8,6 +8,56 @@
     </div>
 
     <div class="box-body">
+        <div class="col-md-12">
+
+          <form name="tambah" action="?tampil=dataolah_tambahpro" method="post" enctype="multipart/form-data"
+            class="form-horizontal">
+
+              <div class="form-group">
+                <label class="label-control col-md-2">JUDUL</label>
+                <div class="col-md-6">
+                  <input class="form-control" type="text" name="judul" placeholder="isikan judul ..." required>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label class="label-control col-md-2">TANGGAL TERBIT</label>
+                <div class="col-md-6">
+                  <input type="text" name="tgl_terbit"class="form-control pull-right" id="datepicker">
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label class="label-control col-md-2">KLASIFIKASI</label>
+                <div class="col-md-6">
+                  <select class="form-control" name="klasifikasi">
+                    <option value="">-- pilih salah satu --</option>
+                    <?php
+                    $kontrak = mysqli_query($conn, "SELECT * FROM tb_klasifikasi ORDER BY kode_klasifikasi ASC");
+                    while ($rowkon = mysqli_fetch_array($kontrak)){
+                      echo "<option value=$rowkon[kode_klasifikasi]>$rowkon[klasifikasi]</option> \n";
+                    }
+                    ?>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label class="label-control col-md-2">CATATAN</label>
+                <div class="col-md-6">
+                  <textarea name="catatan" class="form-control" rows="3" placeholder="isikan catatan ..." required></textarea>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label class="label-control col-md-2"></label>
+                <div class="col-md-6">
+                  <button type="Submit" name="tambah" class="btn btn-primary">
+                    <span class="fa fa-plus-circle"></span> Tambah</button>
+                </div>
+              </div>
+
+          </form>
 
         <div class="col-md-12">
          
@@ -54,8 +104,8 @@
                                   <td><?php echo $data['tanggal_terbit']; ?></td>
                                   <td><?php echo $data['catatan']; ?></td>
                                   <td>
-                                      <a href="?tampil=basispeng_edit&id=<?php echo $data['id_basispeng']; ?>" class="btn btn-primary btn-xs" title="edit">edit</a>
-                                      <a href="javascript:;" data-id="<?php echo $data['id_basispeng'] ?>" data-toggle="modal" data-target="#basispeng_hapus"
+                                      <a href="?tampil=dataolah_edit&id=<?php echo $data['kode_dataolah']; ?>" class="btn btn-primary btn-xs" title="edit">edit</a>
+                                      <a href="javascript:;" data-id="<?php echo $data['kode_dataolah'] ?>" data-toggle="modal" data-target="#dataolah_hapus"
                                               class="btn btn-danger btn-xs" title="hapus">hapus</a>
                                   </td>
                                   </tr>
@@ -112,9 +162,9 @@
                                 <td><?php echo $data['tanggal_terbit']; ?></td>
                                 <td><?php echo $data['catatan']; ?></td>
                                 <td>
-                                    <a href="?tampil=basispeng_edit&id=<?php echo $data['id_basispeng']; ?>" class="btn btn-primary btn-xs" title="edit">edit</a>
-                                    <a href="javascript:;" data-id="<?php echo $data['id_basispeng'] ?>" data-toggle="modal" data-target="#basispeng_hapus"
-                                            class="btn btn-danger btn-xs" title="hapus">hapus</span></a>
+                                      <a href="?tampil=dataolah_edit&id=<?php echo $data['kode_dataolah']; ?>" class="btn btn-primary btn-xs" title="edit">edit</a>
+                                      <a href="javascript:;" data-id="<?php echo $data['kode_dataolah'] ?>" data-toggle="modal" data-target="#dataolah_hapus"
+                                              class="btn btn-danger btn-xs" title="hapus">hapus</a>
                                 </td>
                                 </tr>
 
@@ -170,9 +220,9 @@
                                 <td><?php echo $data['tanggal_terbit']; ?></td>
                                 <td><?php echo $data['catatan']; ?></td>
                                 <td>
-                                    <a href="?tampil=basispeng_edit&id=<?php echo $data['id_basispeng']; ?>" class="btn btn-primary btn-xs" title="edit">edit</a>
-                                    <a href="javascript:;" data-id="<?php echo $data['id_basispeng'] ?>" data-toggle="modal" data-target="#basispeng_hapus"
-                                            class="btn btn-danger btn-xs" title="hapus">hapus</a>
+                                      <a href="?tampil=dataolah_edit&id=<?php echo $data['kode_dataolah']; ?>" class="btn btn-primary btn-xs" title="edit">edit</a>
+                                      <a href="javascript:;" data-id="<?php echo $data['kode_dataolah'] ?>" data-toggle="modal" data-target="#dataolah_hapus"
+                                              class="btn btn-danger btn-xs" title="hapus">hapus</a>
                                 </td>
                                 </tr>
  
@@ -229,9 +279,9 @@
                                 <td><?php echo $data['tanggal_terbit']; ?></td>
                                 <td><?php echo $data['catatan']; ?></td>
                                 <td>
-                                    <a href="?tampil=basispeng_edit&id=<?php echo $data['id_basispeng']; ?>" class="btn btn-primary btn-xs" title="edit">edit</a>
-                                    <a href="javascript:;" data-id="<?php echo $data['id_basispeng'] ?>" data-toggle="modal" data-target="#basispeng_hapus"
-                                            class="btn btn-danger btn-xs" title="hapus">hapus</a>
+                                      <a href="?tampil=dataolah_edit&id=<?php echo $data['kode_dataolah']; ?>" class="btn btn-primary btn-xs" title="edit">edit</a>
+                                      <a href="javascript:;" data-id="<?php echo $data['kode_dataolah'] ?>" data-toggle="modal" data-target="#dataolah_hapus"
+                                              class="btn btn-danger btn-xs" title="hapus">hapus</a>
                                 </td>
                                 </tr>
 
@@ -287,9 +337,9 @@
                                 <td><?php echo $data['tanggal_terbit']; ?></td>
                                 <td><?php echo $data['catatan']; ?></td>
                                 <td>
-                                    <a href="?tampil=basispeng_edit&id=<?php echo $data['id_basispeng']; ?>" class="btn btn-primary btn-xs" title="edit">edit</a>
-                                    <a href="javascript:;" data-id="<?php echo $data['id_basispeng'] ?>" data-toggle="modal" data-target="#basispeng_hapus"
-                                            class="btn btn-danger btn-xs" title="hapus">hapus</a>
+                                      <a href="?tampil=dataolah_edit&id=<?php echo $data['kode_dataolah']; ?>" class="btn btn-primary btn-xs" title="edit">edit</a>
+                                      <a href="javascript:;" data-id="<?php echo $data['kode_dataolah'] ?>" data-toggle="modal" data-target="#dataolah_hapus"
+                                              class="btn btn-danger btn-xs" title="hapus">hapus</a>
                                 </td>
                                 </tr>
 
@@ -344,13 +394,11 @@
                                 <td><?php echo $no; ?></td>
                                 <td><?php echo $data['judul_indonesia']; ?></td>
                                 <td><?php echo $data['tanggal_terbit']; ?></td>
-                                <td><?php echo $data['catatan ']; ?></td>
+                                <td><?php echo $data['catatan']; ?></td>
                                 <td>
-                                    <a href="?tampil=basispeng_edit&id=<?php echo $data['id_basispeng']; ?>" class="btn btn-primary btn-xs" title="edit">
-                                            <span class="fa fa-edit" aria-hidden="true"></span></a>
-                                    <a href="javascript:;" data-id="<?php echo $data['id_basispeng'] ?>" data-toggle="modal" data-target="#basispeng_hapus"
-                                            class="btn btn-danger btn-xs" title="hapus">
-                                            <span class="fa fa-trash" aria-hidden="true"></span></a>
+                                      <a href="?tampil=dataolah_edit&id=<?php echo $data['kode_dataolah']; ?>" class="btn btn-primary btn-xs" title="edit">edit</a>
+                                      <a href="javascript:;" data-id="<?php echo $data['kode_dataolah'] ?>" data-toggle="modal" data-target="#dataolah_hapus"
+                                              class="btn btn-danger btn-xs" title="hapus">hapus</a>
                                 </td>
                                 </tr>
 
@@ -359,17 +407,11 @@
                                 }
                                 ?>
 
-              </div>
             </div>
-
-            <!-- /.box-body -->
           </div>
-          <!-- /.box -->
         </div>
-
+      </div>
+    </div>
   </div>
-    <!-- /.box-body -->
-  </div>
-  <!-- /.box -->
 
 </section>

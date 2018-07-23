@@ -22,9 +22,9 @@
     </a>
   </li>
 
-  <li class="<?php if ($_GET['tampil'] == 'sertifikat'){ echo "active"; }?>">
-    <a href="?tampil=sertifikat">
-      <i class="fa fa-file-text"></i> <span>Sertifikat</span>
+  <li class="<?php if ($_GET['tampil'] == 'proses'){ echo "active"; }?>">
+    <a href="?tampil=proses">
+      <i class="fa fa-file-text"></i> <span>Proses TF-IDF</span>
     </a>
   </li>
   

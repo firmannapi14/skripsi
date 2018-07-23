@@ -28,12 +28,20 @@
 
   // ------------------------ DATA OLAH------------------------
   elseif ($tampil == "dataolah") include("page/dataolah/dataolah.php");
+  elseif ($tampil == "dataolah_tambahpro") include("page/dataolah/dataolah_tambahpro.php");
+  elseif ($tampil == "dataolah_edit") include("page/dataolah/dataolah_edit.php");
+  elseif ($tampil == "dataolah_editpro") include("page/dataolah/dataolah_editpro.php");
+  elseif ($tampil == "dataolah_hapus") include("page/dataolah/dataolah_hapus.php");
 
   // ------------------------ KLASIFIKASI ------------------------
   elseif ($tampil == "klasifikasi") include("page/klasifikasi/klasifikasi.php");
+  elseif ($tampil == "klasifikasi_tambahpro") include("page/klasifikasi/klasifikasi_tambahpro.php");
+  elseif ($tampil == "klasifikasi_edit") include("page/klasifikasi/klasifikasi_edit.php");
+  elseif ($tampil == "klasifikasi_editpro") include("page/klasifikasi/klasifikasi_editpro.php");
+  elseif ($tampil == "klasifikasi_hapus") include("page/klasifikasi/klasifikasi_hapus.php");
 
   // ------------------------ SERTIFIKAT ------------------------
-  elseif ($tampil == "sertifikat") include("page/sertifikat/sertifikat.php");
+  elseif ($tampil == "proses") include("page/proses/proses.php");
 
 else echo"Konten tidak ada";
 

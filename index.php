@@ -122,9 +122,7 @@
 
     $('#datepicker').datepicker({
       autoclose: true,
-      format: "MM-yyyy",
-      startView: "months", 
-      minViewMode: "months"
+      format: 'yyyy-mm-dd'
     })
     $('#datepicker1').datepicker({
       autoclose: true,
