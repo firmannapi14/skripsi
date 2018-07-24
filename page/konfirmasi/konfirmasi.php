@@ -18,7 +18,6 @@
         <thead>
         <tr>
           <th>NO</th>
-          <th>KODE KLASIFIKASI</th>
           <th>KLASIFIKASI</th>
           <th>JUDUL</th>
           <th>TANGGAL TERBIT</th>
@@ -38,8 +37,7 @@
           ?>
             <tr>
               <td><?php echo $no; ?>.</td>
-              <td><?php echo $data['kode_klasifikasi']; ?></td>
-              <td><?php echo $data['klasifikasi']; ?></td>
+              <td><a class="btn btn-danger btn-xs"><?php echo $data['klasifikasi']; ?></a></td>
               <td><?php echo $data['judul']; ?></td>
               <td><?php echo $data['tgl_terbit']; ?></td>
             </tr>
