@@ -1,11 +1,11 @@
 <?php
 
   if (isset($_GET['tampil'])) $tampil=$_GET['tampil'];
-  else $tampil="beranda";
+  else $tampil="home";
 
-  if ($tampil == "beranda") include("beranda.php");
+  if ($tampil == "home") include("home.php");
   else if ($tampil == "logout") include("logout.php");
-  else if ($tampil == "beranda") include("beranda.php");
+  else if ($tampil == "home") include("home.php");
 
   // ------------------------ MAHASISWA ------------------------
   elseif ($tampil == "mahasiswa") include("page/mahasiswa/mahasiswa.php");
@@ -20,8 +20,7 @@
   elseif ($tampil == "mhs_editpro") include("page/profil/mhs_editpro.php");
 
   
-  // ------------------------ ADMIN ------------------------
-  elseif ($tampil == "admin") include("page/admin/admin.php");
+
 
   // ------------------------ MAHASISWA ------------------------
   elseif ($tampil == "mahasiswa") include("page/mahasiswa/mahasiswa.php");
@@ -33,6 +32,9 @@
   elseif ($tampil == "dataolah_editpro") include("page/dataolah/dataolah_editpro.php");
   elseif ($tampil == "dataolah_hapus") include("page/dataolah/dataolah_hapus.php");
 
+  // ------------------------ KONFIRMASI ------------------------
+  elseif ($tampil == "konfirmasi") include("page/konfirmasi/konfirmasi.php");
+
   // ------------------------ KLASIFIKASI ------------------------
   elseif ($tampil == "klasifikasi") include("page/klasifikasi/klasifikasi.php");
   elseif ($tampil == "klasifikasi_tambahpro") include("page/klasifikasi/klasifikasi_tambahpro.php");
@@ -42,6 +44,8 @@
 
   // ------------------------ SERTIFIKAT ------------------------
   elseif ($tampil == "proses") include("page/proses/proses.php");
+  elseif ($tampil == "proses_user") include("page/proses/proses_user.php");
+
 
 else echo"Konten tidak ada";
 

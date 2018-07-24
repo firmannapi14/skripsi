@@ -12,11 +12,21 @@
 
                     <div class="col-md-12">
                         <div class="form-group">
-                            <label class="label-control col-md-2">DESKRIPSI</label>
+                            <label class="label-control col-md-2"><?php if($role == 0) { echo "DESKRIPSI"; } else { echo "JUDUL"; } ?></label>
                             <div class="col-md-6">
                                 <textarea class="form-control" name="deskripsi" rows="5" required></textarea>
                             </div>
                         </div>
+
+                        <?php if($role == 1) { ?>
+                        <div class="form-group">
+                            <label class="label-control col-md-2">TANGGAL TERBIT</label>
+                            <div class="col-md-6">
+                            <input type="text" name="tgl_terbit" class="form-control pull-right" id="datepicker">
+                            </div>
+                        </div>
+                        <?php } ?>
+
                     </div>
 
                     <div class="col-md-12">
@@ -33,6 +43,7 @@
                 <div class="box-footer">
                 <?php 
                 
+
                 $tmpArrper = array();
 
                   if (isset($_POST['deskripsi'])) {
@@ -43,26 +54,47 @@
                       fclose($myfile);
                   }
                   if (isset($deskripsi)) {
+
+                    if ($role == 0) {
                       echo "Kata Awal : <b>".$deskripsi."</b>";
+                    }
                       $output = null;
                       exec("python coba.py", $output, $return);
                         
+                        if($role == 0) {
                         echo "<pre>";
+                        }
+
                         $apa = array("Tokenizing", "Filtering", "Stemming");
                         for ($a=0;$a<count($apa);$a++) {
-                            echo $apa[$a]."\t : "."[".$a."] ".$output[$a]."<br>";
+                            if ($role == 0) {
+                                echo $apa[$a]."\t : "."[".$a."] ".$output[$a]."<br>";
+                            } else {
+                                $apa[$a]."\t : "."[".$a."] ".$output[$a];
+                            }
+                            
                         }                  
+                        
+                        if ($role == 0) {
                         echo "</pre>";
+                        }
 
                       $arrper     = preg_replace('/[^A-Za-z0-9\ ]/', '', $output[2]);
                       $tmpArrper  = explode(" ",$arrper);
                         
+                        if($role == 0) {
                         echo "Hasil Stemming : ";
                         echo "<pre>";
-                        for ($a=0;$a<count($tmpArrper);$a++) {
-                            echo "[".$a."] => ".$tmpArrper[$a]."<br>";
                         }
-                        echo "</pre>";
+                        for ($a=0;$a<count($tmpArrper);$a++) {
+                            if ($role == 0) {
+                                echo "[".$a."] => ".$tmpArrper[$a]."<br>";
+                            }
+                        }
+
+                        if($role == 0) {
+                            echo "</pre>";
+                        }
 
                       }
                     
@@ -78,7 +110,7 @@
                     
                     $sql = mysqli_query($conn, "SELECT * FROM tb_klasifikasi");
                     while($data = mysqli_fetch_array($sql)) {
-                        $pecah_data = array($data['klasifikasi']);
+                        $pecah_data = array($data['kode_klasifikasi']);
                         $tmpklas = array_merge($tmpklas, $pecah_data);
                     }
 
@@ -545,7 +577,7 @@
 
 </section>
 
-
+<?php if ($role == 0) { ?>
 <section class="content">
 <div class="row">
 
@@ -1082,8 +1114,8 @@
 
                             $hasil = $tmpklas[$key];
 
-
-
+                            
+                            
                         
                     ?>
                     </tbody>
@@ -1105,7 +1137,11 @@
                 <div class="form-group">
                     <label class="label-control col-md-4">JAWABAN</label>
                     <div class="col-md-8">
-                        <?= $hasil ?>
+                        <?php
+                        $apasih = mysqli_query($conn,"SELECT * FROM tb_klasifikasi WHERE kode_klasifikasi='$hasil'");
+                        $data = mysqli_fetch_array($apasih);
+                        echo $data['klasifikasi'];
+                        ?>
                     </div>
                 </div>
 
@@ -1122,4 +1158,5 @@
   </div>
   <!-- /.box -->
 
-</section>  
+</section>
+<?php } ?>

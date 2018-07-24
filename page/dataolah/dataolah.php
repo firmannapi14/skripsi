@@ -118,7 +118,26 @@
                               </tbody>
                           </table>
                       </div>
+                    
+                      <div id="dataolah_hapus" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                  <div class="modal-content">
 
+                  <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                      <h4 class="modal-title"> <span class="glyphicon glyphicon-exclamation-sign"></span> Konfirmasi</h4>
+                  </div>
+                  <div class="modal-body">
+                      Apakah Anda yakin ingin menghapus data ini ?
+                  </div>
+                  <div class="modal-footer">
+                      <a href="javascript:;" class="btn btn-info" id="hapus-dataolah"><i class="glyphicon glyphicon-ok"></i> Ya</a>
+                      <button type="button" class="btn btn-danger" data-dismiss="modal"><i class="glyphicon glyphicon-remove"></i> Tidak</button>
+                  </div>
+
+                  </div>
+              </div>
+          </div>
 
                     </div>
                   </div>
@@ -177,6 +196,25 @@
                         </table>
                     </div>
                   
+                    <div id="dataolah_hapus" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                  <div class="modal-content">
+
+                  <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                      <h4 class="modal-title"> <span class="glyphicon glyphicon-exclamation-sign"></span> Konfirmasi</h4>
+                  </div>
+                  <div class="modal-body">
+                      Apakah Anda yakin ingin menghapus data ini ?
+                  </div>
+                  <div class="modal-footer">
+                      <a href="javascript:;" class="btn btn-info" id="hapus-dataolah"><i class="glyphicon glyphicon-ok"></i> Ya</a>
+                      <button type="button" class="btn btn-danger" data-dismiss="modal"><i class="glyphicon glyphicon-remove"></i> Tidak</button>
+                  </div>
+
+                  </div>
+              </div>
+          </div>
 
                   </div>
                   </div>
@@ -236,6 +274,25 @@
                         </table>
                     </div>
                   
+                    <div id="dataolah_hapus" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                  <div class="modal-content">
+
+                  <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                      <h4 class="modal-title"> <span class="glyphicon glyphicon-exclamation-sign"></span> Konfirmasi</h4>
+                  </div>
+                  <div class="modal-body">
+                      Apakah Anda yakin ingin menghapus data ini ?
+                  </div>
+                  <div class="modal-footer">
+                      <a href="javascript:;" class="btn btn-info" id="hapus-dataolah"><i class="glyphicon glyphicon-ok"></i> Ya</a>
+                      <button type="button" class="btn btn-danger" data-dismiss="modal"><i class="glyphicon glyphicon-remove"></i> Tidak</button>
+                  </div>
+
+                  </div>
+              </div>
+          </div>
 
                   </div>
                   </div>
@@ -294,6 +351,25 @@
                         </table>
                     </div>
                   
+                    <div id="dataolah_hapus" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                  <div class="modal-content">
+
+                  <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                      <h4 class="modal-title"> <span class="glyphicon glyphicon-exclamation-sign"></span> Konfirmasi</h4>
+                  </div>
+                  <div class="modal-body">
+                      Apakah Anda yakin ingin menghapus data ini ?
+                  </div>
+                  <div class="modal-footer">
+                      <a href="javascript:;" class="btn btn-info" id="hapus-dataolah"><i class="glyphicon glyphicon-ok"></i> Ya</a>
+                      <button type="button" class="btn btn-danger" data-dismiss="modal"><i class="glyphicon glyphicon-remove"></i> Tidak</button>
+                  </div>
+
+                  </div>
+              </div>
+          </div>
 
                   </div>
                   </div>
@@ -353,6 +429,25 @@
                         </table>
                     </div>
                   
+                    <div id="dataolah_hapus" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                  <div class="modal-content">
+
+                  <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                      <h4 class="modal-title"> <span class="glyphicon glyphicon-exclamation-sign"></span> Konfirmasi</h4>
+                  </div>
+                  <div class="modal-body">
+                      Apakah Anda yakin ingin menghapus data ini ?
+                  </div>
+                  <div class="modal-footer">
+                      <a href="javascript:;" class="btn btn-info" id="hapus-dataolah"><i class="glyphicon glyphicon-ok"></i> Ya</a>
+                      <button type="button" class="btn btn-danger" data-dismiss="modal"><i class="glyphicon glyphicon-remove"></i> Tidak</button>
+                  </div>
+
+                  </div>
+              </div>
+          </div>
 
                   </div>
                   </div>
@@ -406,8 +501,30 @@
                                 $no++;
                                 }
                                 ?>
-
+                              </tbody>
+                          </table>
             </div>
+          
+            <div id="dataolah_hapus" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                  <div class="modal-content">
+
+                  <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                      <h4 class="modal-title"> <span class="glyphicon glyphicon-exclamation-sign"></span> Konfirmasi</h4>
+                  </div>
+                  <div class="modal-body">
+                      Apakah Anda yakin ingin menghapus data ini ?
+                  </div>
+                  <div class="modal-footer">
+                      <a href="javascript:;" class="btn btn-info" id="hapus-dataolah"><i class="glyphicon glyphicon-ok"></i> Ya</a>
+                      <button type="button" class="btn btn-danger" data-dismiss="modal"><i class="glyphicon glyphicon-remove"></i> Tidak</button>
+                  </div>
+
+                  </div>
+              </div>
+          </div>
+
           </div>
         </div>
       </div>
@@ -415,3 +532,4 @@
   </div>
 
 </section>
+<script src="lib/dataolah.js"></script>
