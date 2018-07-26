@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.7.4
+-- version 4.7.9
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: 23 Jul 2018 pada 06.49
--- Versi Server: 10.1.30-MariaDB
--- PHP Version: 7.2.1
+-- Generation Time: Jul 26, 2018 at 10:43 PM
+-- Server version: 10.1.31-MariaDB
+-- PHP Version: 7.2.3
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -25,7 +25,7 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Struktur dari tabel `tb_admin`
+-- Table structure for table `tb_admin`
 --
 
 CREATE TABLE `tb_admin` (
@@ -39,11 +39,11 @@ CREATE TABLE `tb_admin` (
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1 COLLATE=latin1_general_ci;
 
 --
--- Dumping data untuk tabel `tb_admin`
+-- Dumping data for table `tb_admin`
 --
 
 INSERT INTO `tb_admin` (`kode_admin`, `username`, `password`, `telepon`, `email`, `gambar`, `status`) VALUES
-('ADM02', 'a', 'a', '0234567845678', 'admin@yahoo.com', 'wifi.png', 'Aktif'),
+('ADM02', 'a', 'a', '0234567845678', 'adminbaru@yahoo.com', 'wifi.png', 'Aktif'),
 ('ADM03', 'array', 'array', '02345678923456', 'array@a.com', 'keys.jpg', 'Aktif'),
 ('ADM01', 'jokowi', 'jokowi', '021-11111111', 'presidenri@gmail.com', 'key.jpg', 'Aktif'),
 ('ADM18070', 'abc', 'abc', '085244746050', 'firmangirif@gmail.com', '201431291.jpg', 'Aktif');
@@ -51,7 +51,7 @@ INSERT INTO `tb_admin` (`kode_admin`, `username`, `password`, `telepon`, `email`
 -- --------------------------------------------------------
 
 --
--- Struktur dari tabel `tb_dataolah`
+-- Table structure for table `tb_dataolah`
 --
 
 CREATE TABLE `tb_dataolah` (
@@ -64,7 +64,7 @@ CREATE TABLE `tb_dataolah` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Dumping data untuk tabel `tb_dataolah`
+-- Dumping data for table `tb_dataolah`
 --
 
 INSERT INTO `tb_dataolah` (`kode_dataolah`, `judul_indonesia`, `tanggal_terbit`, `kode_klasifikasi`, `catatan`, `normalisasi`) VALUES
@@ -86,7 +86,6 @@ INSERT INTO `tb_dataolah` (`kode_dataolah`, `judul_indonesia`, `tanggal_terbit`,
 (16, 'TOEFL Prediction Test', '2018-07-06', 'KLS1807001', 'TOEFL Prediction Test adalah sebuah tes TOEFL yang dimana mahasiswa pada akhirnya akan mendapatkan sebuah hasil uji dari tes tersebut', 'toefl prediction test'),
 (17, 'The Basic English Communication Course', '2018-07-06', 'KLS1807001', 'The Basic English Communication Course adalah kegiatan yang dilakukan untuk menunjang bahasa internasional seorang mahasiswa', 'the basic english communication course'),
 (18, 'AEC Campus TOEFL', '2018-07-06', 'KLS1807001', 'AEC Campus TOEFL adalah kegiatan yang dilakukan untuk mendapatkan predikat TOEFL', 'aec campus toefl'),
-(19, 'Pelatihan Publik Speaking', '2018-07-08', 'KLS1807001', 'Pelatihan Publik Speaking adalah salah satu kegiatan yang menunjang dalam kategori bahasa internasional untuk mengaasah kemampuan mahasiswa dalam berbicara di depan umum', 'latih publik speaking'),
 (20, 'Pelatihan Mandiri Jarak Jauh Bidang Kontruksi : Ahli Pengawas Konstruksi Bangunan Gedung', '2018-07-08', 'KLS1807002', 'Pelatihan Mandiri Jarak Jauh Bidang Kontruksi : Ahli Pengawas Konstruksi Bangunan Gedung adalah sebuah kegiatan yang dilakukan untuk mengelal tentang sebuah perusaaan  industri', 'latih mandiri jarak jauh bidang kontruksi ahli awas konstruksi bangun gedung'),
 (21, 'Praktek Kerja Lapangan di PT.PLN Sektor Pembangkitan Teluk Sirih ', '2018-07-08', 'KLS1807002', 'Praktek Kerja Lapangan di PT.PLN Sektor Pembangkitan Teluk Sirih adalah kegiatan praktek kerja industri yang telah dilakukan oleh mahasiswa', 'praktek kerja lapang pt pln sektor bangkit teluk sirih'),
 (22, 'Laporan Magang : PT. Telekomunikasi Indonesia, Tbk. STO Gambir Divisi TV Video Unit Legal', '2018-07-08', 'KLS1807002', 'Laporan Magang : PT. Telekomunikasi Indonesia, Tbk. STO Gambir Divisi TV Video Unit Legal adalah hasil kerja magang mahasiswa STT-PLN di Telkom Indonesia', 'lapor magang pt telekomunikasi indonesia tbk sto gambir divisi tv video unit legal'),
@@ -181,13 +180,12 @@ INSERT INTO `tb_dataolah` (`kode_dataolah`, `judul_indonesia`, `tanggal_terbit`,
 (124, 'Perancangan Ulang Penstock Untuk Memaksimalkan Kapasitas Terpasang Pada PLTMII Plengan', '2018-07-09', 'KLS1807005', 'Perancangan Ulang Penstock Untuk Memaksimalkan Kapasitas Terpasang Pada PLTMII Plengan adalah skripsi dari mahasisw Teknik Elektro', 'ancang ulang penstock maksimal kapasitas pasang pltmii plengan'),
 (125, 'Perancangan Alat Penyiraman Tanaman Otomatis Berbasis Mikrokontrorel Arduino Mega Menggunakan Sensor Soil Moisture Dengan Metode Fuzzy Tahani', '2018-07-09', 'KLS1807005', 'Perancangan Alat Penyiraman Tanaman Otomatis Berbasis Mikrokontrorel Arduino Mega Menggunakan Sensor Soil Moisture Dengan Metode Fuzzy Tahani adalah judul tugas akhir dari mahasiswa Teknik Informatika', 'ancang alat siram tanam otomatis mikrokontrorel arduino mega sensor soil moisture metode fuzzy tahan'),
 (126, 'Analisis Kegagalan Material Lance Tube Tipe Long Retractable Sootblower', '2018-07-09', 'KLS1807005', 'Analisis Kegagalan Material Lance Tube Tipe Long Retractable Sootblower adalah sebuah judul tugas akhir yang di kerjakan oleh mahasiswa Teknik Sipil', 'analisis gagal material lance tube tipe long retractable sootblower'),
-(127, 'Rancang Bangun Sistem Pelacak Teknisi Lapangan Terdekat Lokasi Gangguan Dengan Realtime Menggunakan Firebase Realtime Database', '2018-07-09', 'KLS1807005', 'Rancang Bangun Sistem Pelacak Teknisi Lapangan Terdekat Lokasi Gangguan Dengan Realtime Menggunakan Firebase Realtime Database adalah sebuah tugas akhir yang dikerjakan oleh mahasiswa Teknik Informatika', 'rancang bangun sistem lacak teknisi lapang dekat lokasi ganggu realtime firebase realtime database'),
-(128, 'xasasa', '2018-07-18', 'KLS1807001', 'sasasasasa', 'xasasa');
+(127, 'Rancang Bangun Sistem Pelacak Teknisi Lapangan Terdekat Lokasi Gangguan Dengan Realtime Menggunakan Firebase Realtime Database', '2018-07-09', 'KLS1807005', 'Rancang Bangun Sistem Pelacak Teknisi Lapangan Terdekat Lokasi Gangguan Dengan Realtime Menggunakan Firebase Realtime Database adalah sebuah tugas akhir yang dikerjakan oleh mahasiswa Teknik Informatika', 'rancang bangun sistem lacak teknisi lapang dekat lokasi ganggu realtime firebase realtime database');
 
 -- --------------------------------------------------------
 
 --
--- Struktur dari tabel `tb_klasifikasi`
+-- Table structure for table `tb_klasifikasi`
 --
 
 CREATE TABLE `tb_klasifikasi` (
@@ -197,7 +195,7 @@ CREATE TABLE `tb_klasifikasi` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Dumping data untuk tabel `tb_klasifikasi`
+-- Dumping data for table `tb_klasifikasi`
 --
 
 INSERT INTO `tb_klasifikasi` (`kode_klasifikasi`, `klasifikasi`, `deskripsi`) VALUES
@@ -211,7 +209,7 @@ INSERT INTO `tb_klasifikasi` (`kode_klasifikasi`, `klasifikasi`, `deskripsi`) VA
 -- --------------------------------------------------------
 
 --
--- Struktur dari tabel `tb_mahasiswa`
+-- Table structure for table `tb_mahasiswa`
 --
 
 CREATE TABLE `tb_mahasiswa` (
@@ -226,22 +224,46 @@ CREATE TABLE `tb_mahasiswa` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Dumping data untuk tabel `tb_mahasiswa`
+-- Dumping data for table `tb_mahasiswa`
 --
 
 INSERT INTO `tb_mahasiswa` (`nim`, `nama_mahasiswa`, `jurusan`, `email`, `telepon`, `username`, `password`, `status`) VALUES
-(201431051, 'Abdul Malik Khoiri', 'S1 Teknik Informatika', 'malik@gmail.com', '081308130813', 'malik', 'malik', 'Aktif'),
+(201431051, 'Abdul Malik Khoiri', 'S1 Teknik Informatika', 'malik1431051@sttpln.ac.id', '081308130813', 'malik', 'malik', 'Aktif'),
 (201431290, 'Muhammad Umar Ramadhana', 'S1 Teknik Informatika', 'umar@gmail.com', '082243434444', 'umar', 'umar', 'Aktif'),
 (201431291, 'Firman Giri', 'S1 Teknik Informatika', 'firmangirif@gmail.com', '085244746050', 'ir', 'ir', 'Aktif'),
 (201431294, 'Rizki Nurdian Utami', 'S1 Teknik Informatika', 'dian@sttpln.ac.id', '085244002233', 'dian ', 'dian', 'Aktif'),
 (201431296, 'Fahmi Roihanul Firdaus', 'S1 Teknik Informatika', 'fahmi@gmail.com', '081308130808', 'rehan', 'rehan', 'Aktif'),
-(201431299, 'Muh Iriansyah', 'S1 Teknik Informatika', 'pace@gmail.com', '085244746050', 'pace', 'pace', 'Aktif'),
+(201431299, 'Muh Iriansyah', 'S1 Teknik Informatika', 'iriansyah1431299@sttpln.ac.id', '085244746050', 'pace', 'pace', 'Aktif'),
 (201431300, 'Thufail Erlangga Iriandi Nuklis', 'S1 Teknik Informatika', 'thufail@gmail.com', '080890900000', 'angga', 'angga', 'Aktif');
 
 -- --------------------------------------------------------
 
 --
--- Struktur dari tabel `tb_sertifikat`
+-- Table structure for table `tb_report`
+--
+
+CREATE TABLE `tb_report` (
+  `id_report` int(100) NOT NULL,
+  `nim` int(11) NOT NULL,
+  `kode_klasifikasi` varchar(30) NOT NULL,
+  `judul` text NOT NULL,
+  `judul_stem` text NOT NULL,
+  `tgl_terbit` date NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `tb_report`
+--
+
+INSERT INTO `tb_report` (`id_report`, `nim`, `kode_klasifikasi`, `judul`, `judul_stem`, `tgl_terbit`) VALUES
+(28, 201431299, 'KLS1807006', 'lomba inovasi icon plus', 'lomba inovasi icon plus', '2018-07-10'),
+(29, 201431300, 'KLS1807003', 'pelatihan keterampilan manajemen mahasiswa', 'latih terampil manajemen mahasiswa', '2018-07-27'),
+(30, 201431300, 'KLS1807006', 'lomba olimpiade asian games 2018', 'lomba olimpiade asi games 2018', '2018-07-31');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `tb_sertifikat`
 --
 
 CREATE TABLE `tb_sertifikat` (
@@ -260,7 +282,7 @@ CREATE TABLE `tb_sertifikat` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Dumping data untuk tabel `tb_sertifikat`
+-- Dumping data for table `tb_sertifikat`
 --
 
 INSERT INTO `tb_sertifikat` (`kode_sertifikat`, `nim`, `judul_indonesia`, `judul_inggris`, `tanggal_terbit`, `instansi_penyelenggara`, `nama_kota`, `nama_negara`, `periode`, `kode_klasifikasi`, `status`, `catatan`) VALUES
@@ -296,6 +318,14 @@ ALTER TABLE `tb_mahasiswa`
   ADD PRIMARY KEY (`nim`);
 
 --
+-- Indexes for table `tb_report`
+--
+ALTER TABLE `tb_report`
+  ADD PRIMARY KEY (`id_report`),
+  ADD KEY `nim` (`nim`),
+  ADD KEY `kode_klasifikasi` (`kode_klasifikasi`);
+
+--
 -- AUTO_INCREMENT for dumped tables
 --
 
@@ -303,17 +333,30 @@ ALTER TABLE `tb_mahasiswa`
 -- AUTO_INCREMENT for table `tb_dataolah`
 --
 ALTER TABLE `tb_dataolah`
-  MODIFY `kode_dataolah` int(15) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=129;
+  MODIFY `kode_dataolah` int(15) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=128;
 
 --
--- Ketidakleluasaan untuk tabel pelimpahan (Dumped Tables)
+-- AUTO_INCREMENT for table `tb_report`
+--
+ALTER TABLE `tb_report`
+  MODIFY `id_report` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=31;
+
+--
+-- Constraints for dumped tables
 --
 
 --
--- Ketidakleluasaan untuk tabel `tb_dataolah`
+-- Constraints for table `tb_dataolah`
 --
 ALTER TABLE `tb_dataolah`
   ADD CONSTRAINT `tb_dataolah_ibfk_1` FOREIGN KEY (`kode_klasifikasi`) REFERENCES `tb_klasifikasi` (`kode_klasifikasi`);
+
+--
+-- Constraints for table `tb_report`
+--
+ALTER TABLE `tb_report`
+  ADD CONSTRAINT `tb_report_ibfk_1` FOREIGN KEY (`nim`) REFERENCES `tb_mahasiswa` (`nim`),
+  ADD CONSTRAINT `tb_report_ibfk_2` FOREIGN KEY (`kode_klasifikasi`) REFERENCES `tb_klasifikasi` (`kode_klasifikasi`);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
