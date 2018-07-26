@@ -19,9 +19,6 @@
   elseif ($tampil == "admin_editpro") include("page/profil/admin_editpro.php");
   elseif ($tampil == "mhs_editpro") include("page/profil/mhs_editpro.php");
 
-  
-
-
   // ------------------------ MAHASISWA ------------------------
   elseif ($tampil == "mahasiswa") include("page/mahasiswa/mahasiswa.php");
 
