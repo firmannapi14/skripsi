@@ -52,7 +52,7 @@
                       $txt = $_POST['deskripsi'];
                       fwrite($myfile, $txt);
                       fclose($myfile);
-                  }
+                  
                   if (isset($deskripsi)) {
 
                     if ($role == 0) {
@@ -1159,4 +1159,4 @@
   <!-- /.box -->
 
 </section>
-<?php } ?>
+<?php } } ?>
