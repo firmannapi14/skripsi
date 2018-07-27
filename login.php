@@ -76,7 +76,7 @@
           $_SESSION['username'] = $data['username'];  
           $_SESSION['password'] = $data['password'];
           echo"<meta http-equiv='refresh' content='1;
-          url=index.php?tampil=mahasiswa'>";
+          url=index.php?tampil=home'>";
           
         } else {
 
