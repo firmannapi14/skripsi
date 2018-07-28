@@ -120,16 +120,19 @@
     $('#reservation').daterangepicker()
     $('#reservationtime').daterangepicker({ timePicker: true, timePickerIncrement: 30, format: 'YYYY/MM/DD h:mm A' })
 
-    $('#datepicker').datepicker({
+    $('#datepicker1').datepicker({
       autoclose: true,
       format: 'yyyy-mm-dd'
     })
-    $('#datepicker1').datepicker({
+    $('#datepicker2').datepicker({
       autoclose: true,
-      format: "MM-yyyy",
-      startView: "months", 
-      minViewMode: "months"
+      format: 'yyyy-mm-dd'
     })
+    $('#datepicker3').datepicker({
+      autoclose: true,
+      format: 'yyyy-mm-dd'
+    })
+    
 
   })
 </script>

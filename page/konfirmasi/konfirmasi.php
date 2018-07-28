@@ -48,6 +48,10 @@
           <th>KLASIFIKASI</th>
           <th>JUDUL</th>
           <th>TANGGAL TERBIT</th>
+          <th>INSTANSI PENYELENGGARA</th>
+          <th>KOTA/NEGARA</th>
+          <th>PERIODE</th>
+          <th>STATUS</th>
         </tr>
         </thead>
         <tbody>
@@ -65,8 +69,12 @@
             <tr>
               <td><?php echo $no; ?>.</td>
               <td><a class="btn btn-danger btn-xs"><?php echo $data['klasifikasi']; ?></a></td>
-              <td><?php echo $data['judul']; ?></td>
+              <td><?php echo $data['judul_indonesia']; ?></td>
               <td><?php echo $data['tgl_terbit']; ?></td>
+              <td><?php echo $data['instansi_penyelenggara']; ?></td>
+              <td><?php echo $data['nama_kota']."/".$data['nama_negara']; ?></td>
+              <td><?php echo date('d-M-Y', strtotime($data['periode_awal']))." sampai ".date('d-M-Y', strtotime($data['periode_akhir'])); ?></td>
+              <td><a class="btn btn-success btn-xs"><?php if ($data['status_report'] == 1) { echo "<i class='fa fa-check-square'></i> DITERIMA"; }?></td></a></td>
             </tr>
 
             <?php
@@ -89,6 +97,10 @@
           <th>KLASIFIKASI</th>
           <th>JUDUL</th>
           <th>TANGGAL TERBIT</th>
+          <th>INSTANSI PENYELENGGARA</th>
+          <th>KOTA/NEGARA</th>
+          <th>PERIODE</th>
+          <th>STATUS</th>
         </tr>
         </thead>
         <tbody>
@@ -108,8 +120,12 @@
               <td><?php echo $data['nim']; ?></td>
               <td><?php echo $data['nama_mahasiswa']; ?></td>
               <td><a class="btn btn-danger btn-xs"><?php echo $data['klasifikasi']; ?></a></td>
-              <td><?php echo $data['judul']; ?></td>
+              <td><?php echo $data['judul_indonesia']; ?></td>
               <td><?php echo $data['tgl_terbit']; ?></td>
+              <td><?php echo $data['instansi_penyelenggara']; ?></td>
+              <td><?php echo $data['nama_kota']."/".$data['nama_negara']; ?></td>
+              <td><?php echo date('d-M-Y', strtotime($data['periode_awal']))." sampai ".date('d-M-Y', strtotime($data['periode_akhir'])); ?></td>
+              <td><a class="btn btn-success btn-xs"><?php if ($data['status_report'] == 1) { echo "<i class='fa fa-check-square'></i> DITERIMA"; }?></td></a></td>
             </tr>
 
             <?php

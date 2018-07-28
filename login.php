@@ -22,18 +22,18 @@
 <body class="hold-transition login-page">
 <div class="login-box">
 
-  <div class="login-logo"><i class="fa fa-commenting-o"></i> <b>paChat</b> Testing Mode</div>
+  <div class="login-logo"><i class="fa fa-file-text-o"></i> <b>SKPI</b> | LOGIN</div>
 
   <div class="login-box-body">
     <p class="login-box-msg">Please Login</p>
 
     <form action="login.php" method="post">
       <div class="form-group has-feedback">
-        <input type="text" class="form-control" placeholder="USERNAME" name="username" required>
+        <input type="text" class="form-control" placeholder="USERNAME" name="username" autocomplete="off" required>
         <span class="glyphicon glyphicon-user form-control-feedback"></span>
       </div>
       <div class="form-group has-feedback">
-        <input type="password" class="form-control" placeholder="PASSWORD" name="password" required>
+        <input type="password" class="form-control" placeholder="PASSWORD" name="password" autocomplete="off" required>
         <span class="glyphicon glyphicon-lock form-control-feedback"></span>
       </div>
       <div class="row">
@@ -46,7 +46,7 @@
       </div>
     </form>
 
-      <p align="center">paChat | <b>Testing Mode</b></p>
+      <p align="center">Aplikasi | <b>SKPI</b></p>
 
 
       <?php

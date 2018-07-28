@@ -74,7 +74,7 @@ if ($_GET['role'] != "" && $_GET['id'] != 0) {
         $pdf->Cell(10,6,$no.".",1,0,'C');
         $pdf->Cell(45,6,$row['klasifikasi'],1,0);
         $pdf->Cell(25,6,date('d M Y', strtotime($row['tgl_terbit'])),1,0);
-        $pdf->Cell(110,6,$row['judul'],1,1);
+        $pdf->Cell(110,6,$row['judul_indonesia'],1,1);
         $no++;
     }
 } else {
@@ -91,7 +91,7 @@ if ($_GET['role'] != "" && $_GET['id'] != 0) {
                 $pdf->Cell(10,6,$no.".",1,0,'C');
                 $pdf->Cell(45,6,$row['klasifikasi'],1,0);
                 $pdf->Cell(25,6,date('d M Y', strtotime($row['tgl_terbit'])),1,0);
-                $pdf->Cell(110,6,$row['judul'],1,1);
+                $pdf->Cell(110,6,$row['judul_indonesia'],1,1);
                 $no++;
             }
         } else {
@@ -106,7 +106,7 @@ if ($_GET['role'] != "" && $_GET['id'] != 0) {
                 $pdf->Cell(45,6,$row['nama_mahasiswa'],1,0,'');
                 $pdf->Cell(35,6,$row['klasifikasi'],1,0);
                 $pdf->Cell(23,6,date('d M Y', strtotime($row['tgl_terbit'])),1,0,'C');
-                $pdf->Cell(70,6,$row['judul'],1,1);
+                $pdf->Cell(70,6,$row['judul_indonesia'],1,1);
                 $no++;
             }
         }

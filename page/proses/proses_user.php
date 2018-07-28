@@ -12,26 +12,71 @@
 
                     <div class="col-md-12">
                         <div class="form-group">
-                            <label class="label-control col-md-2">JUDUL</label>
+                            <label class="label-control col-md-3">JUDUL SEMINAR/KEGIATAN</label>
                             <div class="col-md-6">
-                                <textarea class="form-control" name="deskripsi" rows="5" required></textarea>
+                                <textarea class="form-control" name="deskripsi" rows="3" required></textarea>
                             </div>
                         </div>
 
-                        <?php if($role == 1) { ?>
                         <div class="form-group">
-                            <label class="label-control col-md-2">TANGGAL TERBIT</label>
+                            <label class="label-control col-md-3">JUDUL SEMINAR/KEGIATAN (ENGLISH)</label>
                             <div class="col-md-6">
-                            <input type="text" name="tgl_terbit" class="form-control pull-right" id="datepicker">
+                                <textarea class="form-control" name="judul_inggris" rows="3" required></textarea>
+                            </div>
+                        </div>  
+
+                        <div class="form-group">
+                            <label class="label-control col-md-3">TANGGAL TERBIT</label>
+                            <div class="col-md-6">
+                                <div class="input-group date">
+                                    <div class="input-group-addon">
+                                        <i class="fa fa-calendar"></i>
+                                    </div>
+                                        <input type="text" name="tgl_terbit" class="form-control pull-right" id="datepicker1" autocomplete="off" required>
+                                </div>
                             </div>
                         </div>
-                        <?php } ?>
+
+                        <div class="form-group">
+                            <label class="label-control col-md-3">INSTANSI PENYELENGGARA</label>
+                            <div class="col-md-6">
+                                <input type="text" class="form-control" name="instansi">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="label-control col-md-3">NAMA KOTA</label>
+                            <div class="col-md-6">
+                                <input type="text" class="form-control" name="kota">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="label-control col-md-3">NEGARA</label>
+                            <div class="col-md-6">
+                                <input type="text" class="form-control" name="negara">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="label-control col-md-3">PERIODE</label>
+                            <div class="col-md-6">
+                                <div class="input-group date">
+                                <div class="input-group-addon">
+                                    <i class="fa fa-calendar"></i>
+                                </div>
+                                    <input type="text" name="periode_awal" class="form-control pull-right" id="datepicker2" autocomplete="off" required>
+                                <span class="input-group-addon">sampai</span>
+                                    <input type="text" name="periode_akhir" class="form-control pull-right" id="datepicker3" autocomplete="off" required>
+                                </div>
+                            </div>
+                        </div>
 
                     </div>
 
                     <div class="col-md-12">
                         <div class="form-group">
-                            <label class="label-control col-md-2"></label>
+                            <label class="label-control col-md-3"></label>
                             <div class="col-md-6">
                                 <button type="submit" name="tambah" class="btn btn-primary">
                                     <span class="fa fa-refresh"></span> PROSES
@@ -574,11 +619,18 @@
                     $hasil = $tmpklas[$key];
 
                     $input  = mysqli_query($conn, "INSERT INTO tb_report SET
-                        nim                 = '$id',
-                        kode_klasifikasi    = '$hasil',
-                        judul               = '$deskripsi',
-                        judul_stem          = '$arrper',
-                        tgl_terbit          = '$_POST[tgl_terbit]'
+                        nim                     = '$id',
+                        kode_klasifikasi        = '$hasil',
+                        judul_indonesia         = '$deskripsi',
+                        judul_inggris           = '$_POST[judul_inggris]',
+                        judul_stem              = '$arrper',
+                        tgl_terbit              = '$_POST[tgl_terbit]',
+                        instansi_penyelenggara  = '$_POST[instansi]',
+                        nama_kota               = '$_POST[kota]',
+                        nama_negara             = '$_POST[negara]',
+                        periode_awal            = '$_POST[periode_awal]',
+                        periode_akhir           = '$_POST[periode_akhir]',
+                        status_report           = 1
                         ") or die (mysqli_error($conn));
 
                         if ($input) {

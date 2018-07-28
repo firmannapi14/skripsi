@@ -17,17 +17,9 @@
                                 <textarea class="form-control" name="deskripsi" rows="5" required></textarea>
                             </div>
                         </div>
-
-                        <?php if($role == 1) { ?>
-                        <div class="form-group">
-                            <label class="label-control col-md-2">TANGGAL TERBIT</label>
-                            <div class="col-md-6">
-                            <input type="text" name="tgl_terbit" class="form-control pull-right" id="datepicker">
-                            </div>
-                        </div>
-                        <?php } ?>
-
                     </div>
+
+
 
                     <div class="col-md-12">
                         <div class="form-group">
@@ -53,6 +45,7 @@
                       fwrite($myfile, $txt);
                       fclose($myfile);
                   
+                      
                   if (isset($deskripsi)) {
 
                     if ($role == 0) {
@@ -577,7 +570,6 @@
 
 </section>
 
-<?php if ($role == 0) { ?>
 <section class="content">
 <div class="row">
 
@@ -1154,9 +1146,9 @@
 
 
   </div>
+  <?php } ?>
     <!-- /.box-body -->
   </div>
   <!-- /.box -->
 
 </section>
-<?php } } ?>

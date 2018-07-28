@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 26, 2018 at 10:43 PM
+-- Generation Time: Jul 28, 2018 at 05:15 AM
 -- Server version: 10.1.31-MariaDB
 -- PHP Version: 7.2.3
 
@@ -246,47 +246,24 @@ CREATE TABLE `tb_report` (
   `id_report` int(100) NOT NULL,
   `nim` int(11) NOT NULL,
   `kode_klasifikasi` varchar(30) NOT NULL,
-  `judul` text NOT NULL,
+  `judul_indonesia` text NOT NULL,
+  `judul_inggris` text NOT NULL,
   `judul_stem` text NOT NULL,
-  `tgl_terbit` date NOT NULL
+  `tgl_terbit` date NOT NULL,
+  `instansi_penyelenggara` varchar(50) NOT NULL,
+  `nama_kota` varchar(30) NOT NULL,
+  `nama_negara` varchar(30) NOT NULL,
+  `periode_awal` date NOT NULL,
+  `periode_akhir` date NOT NULL,
+  `status_report` int(1) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `tb_report`
 --
 
-INSERT INTO `tb_report` (`id_report`, `nim`, `kode_klasifikasi`, `judul`, `judul_stem`, `tgl_terbit`) VALUES
-(28, 201431299, 'KLS1807006', 'lomba inovasi icon plus', 'lomba inovasi icon plus', '2018-07-10'),
-(29, 201431300, 'KLS1807003', 'pelatihan keterampilan manajemen mahasiswa', 'latih terampil manajemen mahasiswa', '2018-07-27'),
-(30, 201431300, 'KLS1807006', 'lomba olimpiade asian games 2018', 'lomba olimpiade asi games 2018', '2018-07-31');
-
--- --------------------------------------------------------
-
---
--- Table structure for table `tb_sertifikat`
---
-
-CREATE TABLE `tb_sertifikat` (
-  `kode_sertifikat` varchar(15) NOT NULL,
-  `nim` int(11) NOT NULL,
-  `judul_indonesia` varchar(100) NOT NULL,
-  `judul_inggris` varchar(100) NOT NULL,
-  `tanggal_terbit` date NOT NULL,
-  `instansi_penyelenggara` varchar(50) NOT NULL,
-  `nama_kota` varchar(30) NOT NULL,
-  `nama_negara` varchar(30) NOT NULL,
-  `periode` varchar(30) NOT NULL,
-  `kode_klasifikasi` varchar(15) NOT NULL,
-  `status` int(10) NOT NULL DEFAULT '0',
-  `catatan` text NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
---
--- Dumping data for table `tb_sertifikat`
---
-
-INSERT INTO `tb_sertifikat` (`kode_sertifikat`, `nim`, `judul_indonesia`, `judul_inggris`, `tanggal_terbit`, `instansi_penyelenggara`, `nama_kota`, `nama_negara`, `periode`, `kode_klasifikasi`, `status`, `catatan`) VALUES
-('SRT1807001', 0, 'Indonesia Membuat Dunia Tercengang karena Berasnya banyak dan itu', '', '2018-07-11', '', '', '', '', '', 0, '');
+INSERT INTO `tb_report` (`id_report`, `nim`, `kode_klasifikasi`, `judul_indonesia`, `judul_inggris`, `judul_stem`, `tgl_terbit`, `instansi_penyelenggara`, `nama_kota`, `nama_negara`, `periode_awal`, `periode_akhir`, `status_report`) VALUES
+(31, 201431299, 'KLS1807003', 'Pelatihan Keterampilan Manajemen Mahasiswa', 'Pelatihan Keterampilan Manajemen Mahasiswa', 'latih terampil manajemen mahasiswa', '2018-07-10', 'STT PLN Jakarta', 'Jakarta', 'Indonesia', '2018-07-08', '2018-07-10', 1);
 
 --
 -- Indexes for dumped tables
@@ -339,7 +316,7 @@ ALTER TABLE `tb_dataolah`
 -- AUTO_INCREMENT for table `tb_report`
 --
 ALTER TABLE `tb_report`
-  MODIFY `id_report` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=31;
+  MODIFY `id_report` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=32;
 
 --
 -- Constraints for dumped tables
