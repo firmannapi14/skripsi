@@ -1,1 +1,485 @@
-pace
+Studi Rawan Kecelakaan Lalu Lintas Di Jalan Soekarno-Hatta
+
+Studi Kecelakaan Lalu Lintas Di Jalan Soekarno-Hatta Bandung
+
+Simulasi Pelaksanaan Proyek Konstruksi Dengan Menggunakan Sistem 4D CAD
+
+Pengaruh Beban Berlebih Truk Batubara Terhadap Umur Sisa dan Umur Rencana Perkerasan Lentur
+
+Pengaruh Beban Berlebih Truk Batubara Terhadap Umur Sisa dan Umur Rencana Perkerasan Lentur
+
+Studi Perencanaan Hidraulik Peredam Energi Tipe USBR II Dengan Metode Uji Fisik Feigning Dua Dimensi
+
+Evaluasi Kinerja Operasi Bus Kobutri Jurusan KPAD-Antapani
+
+Menentukan Argumentation Ow, Sr dan (Ua – Uw) Pada Kondisi Tanah Tak Jenuh Dengan Pengujian Grime Make Sport Carousal
+
+Analisis Penentuan Tegangan-Regangan Lentur Balok Baja Akibat Beban Terpusat Dengan Metode Elemen Hingga
+
+Evaluasi Tingkat Pelayanan Di Halte Elang Trans Underground Bandung (TMB)
+
+Evaluasi Jaringan Air Bersih dan Air Panas Di Gedung Rumah Sakit St.Borromeus
+
+Evaluasi Kinerja Simpang Tak Bersinyal Pada Jalan Gegerkalong Hilir-Sukahaji Bandung
+
+Studi Pengaruh Berat Pondasi Mesin Tipe Blok Terhadap Respon Tanah
+
+Studi Perbandingan Korelasi Kuat Geser Terhadap Waktu Pada Pemasangan Keramik Diatas Keramik (Tile On Tile) Dengan Menggunakan Blunder Biasa dan Lemkra FK 101
+
+Analisis Beban Lateral Pada Pondasi Tiang Bor Dengan Menggunakan Program LPILE Addition 4.0M
+
+Analisis Korelasi Debit Banjir Rencana Untuk Berbagai Kondisi Ketersediaan Info Di Daerah Khusus Ibukota Jakarta
+
+Aplikasi Perhitungan Satuan Mobil Penumpang Berdasarkan Klasifikasi Kendaraan
+
+Panjang Antrian Kendaraan Pada Simpang Ir.H.Juanda-Dipatiukur Berdasarkan MKJI 1997
+
+Analisis dan Desain Pelat Lantai Wafel Dari Beton Prategang
+
+Studi Desain Struktur Beton Bertulang Tahan Gempa Untuk Bentang Panjang Dengan Program Komputer
+
+Evaluasi Penerapan Keselamatan dan kesehatan Kerja Pada proyek Konstruksi (Studi Kasus Proyek Pembangunan Gedung RS. Santo Borromeus)
+
+Pemetaan Lokasi Rawan Kecelakaan Lalu Lintas Dengan Menggunakan World-wide Positioning Establishment Di Kota Bandung
+
+Studi Pengembangan Jaringan Pipa Induk Air Bersih PDAM Wilayah Soreang Dengan Plan Epanet
+
+Pengaruh Kelebihan Beban Terhadap Umur Rencana Jalan
+
+Studi Perencanaan Percepatan Durasi Proyek Dengan Metode Least Be Analysis
+
+Perbandingan Kepemilikan Mobil dan Sepeda Motif Dalam Rumah Tangga Di Tiga Kota
+
+Studi Penggunaan Pasir Pantai Sebagai Bahan Pengganti Fraksi Agregat Halus Untuk Lapis Tipis Aspal Beton
+
+Metoda Konstruksi Gelagar Jembatan Beton Pratekan Proyek Jalan Layang Cimindi Bandung
+
+Studi Eksperimental Pengaruh Penambahan Superplasticizer Terhadap Kuat Tekan Beton Ringan Alwa Mutu Rencana 40 MPa Dengan Benda Uji Silinder o 150 X 300 mm
+
+Studi Arus Jenuh Pada Persimpangan Bersinyal Jalan Aceh – Jalan Banda Bandung
+
+Studi Distribusi Beban Sumbu Untuk Kendaraan Sumbu Ganda Roda Ganda dan Kendaraan Sumbu Tripel Roda Ganda
+
+Studi Distribusi Beban Sumbu Untuk Kendaraan Sumbu Ganda Roda Ganda Dan Kendaraan Sumbu Tripel Roda Ganda
+
+Studi Pengaruh Bahan Vienison SB Terhadap Indeks Pemampatan (Cc) dan Koefisien Konsolidasi (Cv) Pada Stabilisasi Tanah Lempung
+
+Perbandingan Analisa Biaya Penggunaan Pelat Lantai Berongga Dengan Pelat Lantai Konvensional
+
+Studi Kinerja Jalan Brigadir Jendral Katamso – Pahlawan, Bandung
+
+Tinjauan Kelayakan Proyek Dengan Menggunakan Net Now Survey Method dan Interior Scope of Return Method
+
+Perbandingan Struktur Atap Monobeam Kayu Glulam dan Baja Bentang 25 M
+
+Analisis Gap Pada Persimpangan Tiga Jalan Asia Afrika dan Jalan Braga Bandung
+
+Metode Pelaksanaan dan Estimasi (Perkiraan) Biaya Pada Lapis Perkerasan Jalan Beton
+
+Perencanaan Tebal Perkerasan Kaku Pada Ruas Jalan Lingkar Majalaya Menggunakan Metode Bina Marga 2002
+
+Evaluasi Kinerja Operasi Bus AC Trayek Dipati Ukur – Jatinangor Ditinjau Dari Waktu Keberangkatan dan Kedatangan Pada Tiap Halte
+
+Evaluasi Investasi Angkotan Kota Trayek ST. Hall – Sarijadi
+
+Pembuatan Aplikasi Analisa Struktur Metoda Matriks
+
+Visualisasi 3D Lahan Rencana Proyek Untuk Perhitungan Tawdriness Galian dan Timbunan
+
+Evaluasi Finansial Pada Proyek Peningkatan RSU Cibabat Cimahi
+
+Penentuan Tebal Tipis Tambah Perkerasan Lentur Berdasarkan Lendutan Balik Pada Ruas Jalan Wanayasa-Batas Purwakarta Subang
+
+Penentuan Tebal Lapis Tambah Perkerasan Lentur Berdasarkan Lendutan Balik Pasa Ruas Jalan Wanayasa-Batas Purwakarta Subang
+
+Karakteristik Kecelakaan Lalu Lintas Di Jalan Tol Padalarang – Cileunyi
+
+Tundaan Kendaraan Akibat Aktivitas Kendaraan Yang Melakukan Putar Balik Arah
+
+Pengaruh Penambahan Bahan Polimer Pada Sifat-Sifat Hot Pealing Rag
+
+Evaluasi Kinerja Bundaran Baros-Kerkoff-Leuwigajah Cimahi
+
+Studi Perencanaan Teknis Bangunan Penangkap Sedimen Pada Bendung Ingge Kabupaten Sarmi Papua
+
+Analisis Jaringan Pipa Dengan Bantuan Program Epanet
+
+Analisis Lendutan Seketika dan Jangka Panjang Pada Struktur Pelat Dua Arah
+
+Studi Manajemen Pemeliharaan Jalan Tol Padalarang-Cileunyi
+
+Analisis Kolom Beton Bertulang Dengan Bind Tunggal Menggunakan Pemodelan Penunjang dan Pengikat
+
+Evaluasi Simpang Bersinyal Antara Jalan Banda – Jalan Aceh Bandung
+
+Uji Konsolidasi Constant Club Of Air Dengan Back Press Pada Tanah Lempung Di Daerah Batununggal (Bandung Selatan)
+
+Studi Eksperimental Pengaruh Pelapisan Beton Dengan Lemkra Blast Proofing Terhadap Kuat Tekan Beton Akibat Pembakaran
+
+Sistem Informasi Cash dan Cash Out Pada Suatu Proyek Konstruksi
+
+Studi Eksperimental Penggunaan Cum Portland Komposit Pada Berbagai Umur Kuat Tekan Beton Mutu Tinggi fc’=40 MPa Pada Benda Uji Silinder Berdiameter 150 mm dan Tinggi 300 mm
+
+Sistem Informasi Manajemen Bahan Pada Proyek Konstruksi Perumahan Setraduta
+
+Perencanaan Tebal Perkerasan Tambahan Menggunakan Metode Benkelman Dick Pada Ruas Jalan Soekarno-Hatta, Bandung
+
+Rute Terbaik dan Waktu Tempuh Tercepat Dari Salon Anata Jalan Pasirkaliki – Kampus Universitas Kristen Maranatha Jalan Prof.Drg.Surya Sumantri Bandung
+
+Analisis Kelayakan Proyek Jembatan dan Jalan Layang Pasupati Bandung
+
+Analisis dan Desain Struktur Tahan Gempa Dengan Sistem Balok Anak dan Balok Induk Menggunakan Pelat Searah
+
+Perangkat Lunak Untuk Perencanaan Sambungan Baja
+
+Analisis Struktur Bendung Dengan Metode Elemen Hingga
+
+Sistem Informasi Pencatatan Binge Untuk Pengadaan Barang Masuk dan Keluar
+
+Analisis dan Desain Struktur Tahan Gempa Dengan Sistem Balok Anak dan Balok Induk Menggunakan Pelat Dua Arah
+
+Studi Pengaruh Bukaan Pintu Sorong Pada Aliran Sempurna dan Aliran Tidak Sempurna Terhadap Penggerusan Di Hilir Pintu Dengan Molding Fisik Dua Dimensi
+
+Studi Jarak Pandang Segitiga Di Simpang Jalan Sarimanah Raya dan Jalan Perintis Perumahan Sarijadi
+
+Pengembangan Aplikasi Analisa Dimensi Pondasi Tiang Bor dan Pondasi Tiang Pancang
+
+Analisis Metode Elemen Hingga dan Eksperimental Perhitungan Kurva Beban-Lendutan Balok Baja
+
+Perilaku Struktur Gedung Beton Bertulang Eksisting Akibat Penambahan Lantai
+
+Studi Probabilitas Respon Struktur Dengan Dua Derajat Kebebasan Menggunakan Metode Elemen Hingga
+
+Peta Zonasi Tsunami Indonesia
+
+Studi Waktu Tundaan Awal dan Arus Jenuh Pada Persimpangan Jalan Cipaganti – Eyckman Bandung
+
+Analisis Pengaruh Penyempitan Jalur Jalan Terhadap Karakteristik Arus Lalu Lintas Di Jalan Dr.Djunjunan Bandung
+
+Evaluasi Kestabilan Lereng Pada Tambang Terbuka Di Tambang Batubara
+
+Evaluasi Asuransi Contractor’s All Peril (Car) Pada Proyek Throwaway Culvert
+
+Studi Perbandingan Profil Muka Air Dengan Metoda Integrasi Grafis dan Tahapan Langsung Untuk Saluran Terbuka Dengan Kemiringan Talud Yang Berbeda-Beda
+
+Analisis Respons Gedung Tingkat Tinggi Akibat Beban Gempa dan Angin Terhadap Riwayat Waktu
+
+Studi Menentukan Line Daktilitas Peralihan Struktur Gedung Beton Bertulang Dengan Analisis Cinch
+
+Evaluasi Derajat Kejenuhan Pada Ruas Jalan Dr.Djunjunan, Bandung, Akibat Pengaruh Limpasan Air Hujan
+
+Analisis Dinamik Ragam Spektrum Respons Gedung Tidak Beraturan Dengan Menggunakan SNI 03-1726-2002 dan ASCE 7-05
+
+Peninjauan Sistem Pemeliharaan Gedung Administrasi Pusat Universitas Kristen Maranatha Dengan Kriteria Pieces (Implementation, Information, Deliverance, Instruction, Efficiency, Service)
+
+Studi Evaluasi Kinerja Struktur Baja Bertingkat Rendah Dengan Analisis Centering
+
+Peranan Konsultan Manajemen Konstruksi Pada Pelaksanaan Bangunan Gedung Bertingkat
+
+Studi Contention Mobilize Campuran Laston Bergradasi AC-WC Menggunakan Pasir Sungai Cikapundung
+
+Studi Pelelangan Pengadaan Jasa Konstruksi Menurut Keppres No.18 Tahun 2000
+
+Suggest Newspaper. Jurusan Teknik Sipil UK. Maranatha, Bandung. (Unpublished)
+
+Kebakaran, Dampak dan Penanggulangan. In: Seminar Nasional Teknik Sipil 2007: Pemanfaatan Teknologi dalam Peningkatan Peranan Teknik Sipil, Juni 2007, Bandung.
+
+Konsep Dasar Terjadinya Angkutan Sedimen.
+
+Pembentukan Kelokan Sungai
+
+Penelitian Air Bersih Menjadi Air Minum: PT Alt Plast
+
+Penelitian Air Bersih di PT. Alt Plast Cikarang
+
+Penggunaan Lubang Resapan Biopori untuk Minimalisasi Dampak Bahaya Banjir pada Kecamatan Sukajadi Kelurahan Sukawarna RW004 Bandung
+
+Penggerusan Sedimen di Dasar Sungai Bagian Hilir Kolam Olak Suatu Bendung Tertentu
+
+Analisis Hubungan Kecepatan, Deal, dan Kerapatan Lalu Lintas Pada Ruas Jalan Terusan Pasir Koja Bandung
+
+Perencanaan Biaya dan Pengendalian Jadual Pada proyek Pembangunan Ruko Dengan Menggunakan Chopine Microsoft Project 2003
+
+Studi Distribusi Tegangan Dalam Tanah Akibat Beban Luar Dengan Menggunakan Sigma/W, Geostudio
+
+Studi Karakteristik Pejalan Kaki Di Lampu Penyeberangan
+
+Penghematan Biaya Operasi Kendaraan Akibat Kondisi Permukaan Jalan
+
+Waktu Perjalanan dan Tundaan Pada Jalan Gunungbatu, Bandung
+
+Studi Biaya Kecelakaan Lalu Lintas Pada Jalan Tol Padalarang-Cileunyi Bandung Tahun 2004
+
+Analisis Faktor-Faktor Yang Mempengaruhi Kepuasan Pengguna Busway
+
+Perbandingan Kuat Tarik Tidak Langsung Campuran Beton Aspal Dengan Menggunakan Aspal Penetrasi 60 dan Aspal Penetrasi 80
+
+Manajemen Lalu Lintas Di Persimpangan Jalan Cipedes – Jalan Sindang Sirna, Bandung
+
+Studi Laboratorium Dalam Menentukan Batas Plastis Dengan Metode Precipitation Cone Pada Tanah Butir Halus Di Wilayah Bandung Utara
+
+Perangkat Lunak Analisis dan Desain Wool Jetty Beton Bertulang
+
+Studi Kinerja Operasi Damri Di Kota Bandung
+
+Analisa Dinamik Riwayat Waktu Akibat Gempa Utama dan Gempa Susulan Pada Gedung Beton Bertulang
+
+Analisis dan Eksperimental Perhitungan Daktilitas Balok Beton Bertulang
+
+Analisis Lereng Dengan Perkuatan Pondasi Tiang
+
+Analisis Kebutuhan Rhytidectomy Pada Gedung Grha Widya Maranatha
+
+Peta Mikrozonasi Pengaruh Tsunami Kota Padang
+
+The Analysis and Excogitation of Extraneous Airing Footing Foundations
+
+Program For Students. How To Approximation Reinforcement Bars In Concrete Beams
+
+Studi Pengaruh Bahan Vienison SB Terhadap Kuat Geser Pada Stabilisasi Tanah Lempung
+
+Studi Pengaruh Bahan Vienison SB Terhadap Kuat Geser Pada Stabilisasi Tanah Lempung
+
+Studi Ledger, Kecepatan dan Derajat Kejenuhan Pada Ruas Jalan Abdulrachman Saleh, Bandung
+
+Evaluasi Sistem Pengamanan Gedung Terhadap Bahaya Kebakaran Pada Proyek Rumah Sakit St.Borromeus
+
+Evaluasi Kinerja Jalan Jendral Ahmad Yani Depan Pasar Kosambi Bandung
+
+Studi Respon Dinamis Pada Maritime Riser Akibat Gelombang Laut
+
+Analisis dan Desain Balok Bentang 18 m Pada Gedung 9 Lantai Dengan Beton Prategang dan Baja Profil Khusus
+
+Studi Perbandingan Berat Profil Pada Struktur Gedung Baja Yang Didesain Sebagai Sistem Rangka Pemikul Momen Khusus dan Sistem Rangka Pemikul Momen Terbatas
+
+Pemodelan Numerik Metode Elemen Hingga Rumah Tinggal Terhadap Beban Gempa
+
+Studi Kinerja Jalan Akibat Variasi Hambatan Samping di Jalan Jendral Sudirman Bandung
+
+Perencanaan Gedung Beton Bertulang Tidak Beraturan Berdasarkan SNI 02-1726-2002 dan FEMA 450
+
+Studi Penggunaan Cum Portland Pozolan (PPC) Untuk Perencanaan Beton Struktural Dengan fc’= 25 MPa
+
+Penjadwalan Dengan Metode Plat Preseden Proyek Jalan Layang Cimindi Bandung
+
+Studi Konfigurasi Las Sudut Pada Struktur Baja Yang Memikul Momen Sebidang Berdasarkan Spesifikasi SNI 03-1729-2002 Tentang Tata Cara Perencanaan Struktur Baja Untuk Bangunan Gedung
+
+Perhitungan dan Penggambaran Plat Interaksi Kolom Beton Bertulang Dengan Penampang Persegi
+
+Analisis dan Desain Atap Cangkang Beton Prategang Bentuk World Bean
+
+Pemilihan Rute Pada Koridor Bandung-Bogor Menggunakan Modeling All-or-nothing
+
+Analisis dan Desain End Closure Balok Beton Prategang Dengan Model Penunjang dan Pengikat (Disturbance and Tie Model)
+
+Sedimentasi Pada Waduk Panglima Besar Soedirman dan Dampaknya Terhadap Umur Layanan Waduk
+
+Manajemen Lalu Lintas Simpang Surapati – Sentot Alibasa dan Sekitarnya
+
+Korelasi Antara Hasil Uji Kompaksi Circumscribed Proctor Terhadap Nilai Uji Pada Alat Fighting Cone Penetrometer
+
+Analisa dan Desain Perencanaan Struktur Menara Listrik Tegangan Tinggi
+
+Studi Efektifitas Pelayanan Angkutan Kota Jurusan Abdul Muis – Guinea
+
+Studi Hubungan Antara Perilaku Kepemimpinan dan Hasil Kerja Bawahan Pada Perusahaan Konstruksi
+
+Analisis Investasi Usaha Penambangan Pasir dan Batu Ditinjau Dari Segi Teknis dan Biaya
+
+Analisis dan Desain Balok Conveyance Beton Prategang Pada Bangunan 9 Lantai Tahan Gempa
+
+Sistem Informasi Perhitungan Kedalaman Air Practice dan Kedalaman Air Kritis Pada Aliran Saluran Terbuka Dengan Penampang Kompleks
+
+Studi Stria Hubungan Kecepatan, Saturation dan Kerapatan Dengan Menggunakan Model North-west dan Model Greenberg Pada Ruas jJlan Kautamaan Istri Bandung dan Jalan Soekarno-Hatta Bandung
+
+Studi Waktu Perjalanan, Tundaan dan Faktor Muat Bus Non-AC Trayek Bandung – Garut
+
+Studi Klasifikasi dan Peringkat Penyebab – Penyebab Keterlambatan Waktu Pelaksanaan Proyek
+
+Studi Perbandingan Analisis Pelat Konvensional dan Pelat Pracetak
+
+Perbandingan Karakteristik Perjalanan Sepeda Crusade Di Tiga Kota
+
+Evaluasi Kinerja Simpang RE.Martadinata-Jalan Citarum Terhadap Larangan Belok Kiri Langsung
+
+Pengaruh Lama Perendaman Terhadap Nilai CBR Suatu Tanah Lempung Universitas Kristen Maranatha Lokasi Gedung Grha Widya (Studi Laboratorium)
+
+Studi Perbandingan Analisa Harga Satuan Pekerjaan Bekisting
+
+Studi Penerapan Metode Rekayasa Nilai Pada Perencanaan Bangunan Gedung
+
+Analisis dan Desain Menara Air Beton Prategang Bentuk Cylindrical
+
+Aplikasi Perhitungan Jumlah Textile dan buy essays on-line for college Upah Struktur Beton
+
+Pembuatan Aplikasi Perhitungan Pada Pemadatan (Compressing Test) dan California Bearing Symmetry (CBR Attempt)
+
+Desain Dinding Geser Tahan Gempa Untuk Gedung Bertingkat Menengah
+
+Kualitas Pelayanan Parkir Di Pusat Perbelanjaan Istana Plaza Bandung
+
+Sistem Informasi Pengelolaan Tenaga Kerja Pada Proyek Konstruksi
+
+Kebijakan Pada Proses Pengadaan Bahan Konstruksi
+
+Pengaruh Proporsi Sepeda Ride Terhadap Kinerja Ruas Jalan Tanpa Median
+
+Pengaruh Proporsi Sepeda Cause Terhadap Kinerja Ruas Jalan Tanpa Median
+
+Perhitungan Struktur Atas dan Struktur Bawah Untuk Bangunan Pabrik
+
+Aplikasi Info Transportasi Jalan Di Kota Bandar Lampung
+
+Penentuan Parameter Kuat Geser Tanah Tak Jenuh Air Secara Tidak Langsung Menggunakan Soil-Water Have Curve (SWCC)
+
+Studi Perbandingan Koefisien Textile dan Evaluasi Indeks Produktifitas Pada Pekerjaan Pasangan Batu Bata, Plesteran dan Acian
+
+Desain Balok Silang Struktur Gedung Baja Bertingkat Enam
+
+Pengaruh Persentase Retarder Terhadap Biaya dan Waktu Pengerasan Campuran Beton
+
+Studi Evaluasi Jasa Konsultansi Menggunakan Keppres 80 Tahun 2003 Terhadap Perpres 54 Tahun 2010 Pada Proyek Pembangunan Jalan Parung Panjang-Bunar (14,00 Km) dan Margonda Raya Depok (3,80 Km)
+
+Studi Perbandingan Biaya dan Waktu Pelaksanaan Konstruksi Rumah Tinggal Dua Lantai Menggunakan Pondasi Tiang Strauz Dengan Pondasi Setempat Beton Bertulang
+
+Studi Pengaruh Waktu Hardening Terhadap Arguing Summon Campuran AC-WC
+
+Studi Antrian Di Pintu Masuk Gerbang Tol Pasteur
+
+Analisis Pembebanan Besmen Tahan Gempa
+
+Analisis Tegangan dan Regangan Pada Balok Beton Prategang Pascatarik Yang Tergantung Waktu Menurut Prasada Rao
+
+Studi Pengaruh Adanya Pagar Pembatas Trotoar Pada Simpang Jl.Pasirkaliki – Jl. Padjajaran, Bandung
+
+Perencanaan Struktur Rangka Baja Beraturan Tahan Gempa Berdasarkan SNI 03-1726-2002 dan FEMA 450
+
+Pengaruh Silau Media Reklame Videotron Terhadap Pengguna Jalan Pada Ruas Jalan Wastukencana Bandung
+
+Studi Penanganan Kerusakan Jalan Dengan Metode PCI dan PDI
+
+Analisis Dinamik Beban Gempa Riwayat Waktu Pada Gedung Beton Bertulang Tidak Beraturan
+
+Program Komputer Untuk Desain Perkerasan Lentur Jalan Raya
+
+Studi Tingkat Kinerja Jalan Kamasan, Kabupaten Bandung Menggunakan Metode MKJI 1997
+
+Analisa Kelayakan Pembangunan Rumah Kost Di Daerah Kampus
+
+Studi Kinerja Simpang Lima Bersinyal Asia Afrika – Ahmad Yani Bandung
+
+Studi Perencanaan Hidraulik Bendung Tipe Gergaji Dengan Uji Molding Fisik Dua Dimensi
+
+Perancangan Aplikasi Desain Sambungan Bambu Untuk Bangunan Bambu Tahan Angin
+
+Studi Kinerja Jalan Tol Ruas Kalihurip – Sadang
+
+Studi Analisis dan Desain Beton Bertulang dan Beton Prategang Untuk Gedung 5 Lantai
+
+Analisis Kestabilan Lereng Galian Dalam Segmen C Pada Proyek Jalan Sorowako – Bahodopi Sulawesi
+
+Studi Streak Pondasi Tiang Strausz Dengan Pondasi Sumuran Ditinjau Dari Segi Biaya dan Waktu Pada Suatu Proyek Konstruksi
+
+Penyusunan Perjanjian Kontrak Kerja Pada Sistem B O T
+
+Penentuan Koefisien Produktifitas Pekerjaan Bekisting dan Pembesian Pada Proyek Grha Widya Maranatha
+
+Koordinasi Persediaan Rantai Pasok Desentralisasi dengan Rail Magazine yang Terkontrol dan Mekanisme Revenue Sharing. Expert Cogitation. Jurusan Teknik Industri Fak. Teknik UK. Maranatha, Bandung. (Unpublished)
+
+Desain Gedung Beton Bertulang Dengan Perencanaan Berbasis Perpindahan
+
+Studi Peningkatan Estimasi Biaya Proyek Dari Tahun 2002 Sampai Dengan Tahun 2005
+
+Perbandingan Biaya dan Waktu Pengerjaan Pondasi Pada Proyek Yang Menggunakan Metoda Up-Down Construction Dengan Menggunakan Metoda Konvensional
+
+Pengembangan Peta Bencana Longsoran Pada Rencana Waduk Mannikin Di Nusa Tenggara Timur
+
+Studi Penggunaan Dinding Bangunan Ditinjau Dari Segi Biaya dan Tata Laksana
+
+Aplikasi Perhitungan Profil Aliran Pada Penampang Saluran Berbentuk Trapesium Dengan Metoda Integrasi Langsung
+
+Analisis Kapasitas Dukung Tiang Bor Menggunakan Refine Campaign Analyzer (PDA) Dengan CAPWAP Dibandingkan Dengan Perhitungan Secara Manual Pada Proyek Crha Widya Maranatha
+
+Kajian Kelayakan Air Sungai Cikapundung Sebagai Air Bersih. Jurnal Teknik Sipil, 6 (2). pp. 101-120. ISSN 1411-9331
+
+Pengaruh Penambahan Beban pada Rangka Atap Terhadap Lendutan. Chore Floor. Jurusan Teknik Sipil UK. Maranatha, Bandung. (Unpublished)
+
+Perancangan Alat Pengolahan Air yang Ramah Lingkungan, Sederhana, Murah dan Mudah Dioperasikan. In: Seminar Ilmiah Universitas UK. Maranatha: Pengembangan Potensi Sumber Daya Ilmiah dalam Meningkatkan Daya Saing Bangsa, 18 Desember 2010, Bandung.
+
+Penerapan Manikin Transportasi Dalam Rangka Efisiensi Biaya Penempatan Tug Crane Pada Multi Proyek
+
+Studi Prosedur Pelelangan Pengadaan Jasa Konsultan Pada Proyek Pemerintah Menurut Keppres No.80 Tahun 2003
+
+Studi Perencanaan Hidraulik Peredam Energi Tipe MDO Dengan Example Fisik Dua Dimensi
+
+Analisis Biaya Operasi Kendaraan Dalam Penentuan Tarif Mobil Penumpang Umum Trayek Cicaheum-Ledeng
+
+Analisis Biaya Operasi Kendaraan Dalam Penentuan Tarif Mobil Penumpang Umum Trayek Cicaheum-Ledeng
+
+Analisis Perhitungan Rencana Anggaran Biaya Proyek Rumah Tinggal Berdasarkan Analisa BOW dan SNI 2007
+
+Penentuan Angka Konversi Tingkat Kecelakaan Fatal Di Kota Bandung
+
+Korelasi Kepadatan Relatif Pasir Kelanauan Terhadap Nilai Permeabilitasnya
+
+Analisis Gap Kritis Pada Persimpangan Tiga Jalan Asia Afrika dan Jalan Braga Bandung
+
+Studi Analisis Keterlambatan Perjalanan Kereta Api Parahyangan Bandung-Jakarta
+
+Evaluasi Arus Kas Kontraktor Dengan Sistem Angsuran Pembayaran Bulanan
+
+Analisis dan Desain Gedung Beton Bertulang 9 Lantai Tahan Gempa Berdasarkan SNI 1726-2002 dan RSNI 201x
+
+Analisis Kinerja Simpang Empat Steger Tak Bersinyal Pada Jl.Buahbaru – Jl.Solontongan – Jl.Suryalaya Kota Bandung
+
+Analisis Kinerja Simpang Empat Steger Tak Bersinyal Pada Jl. Buah Batu-Jl. Solontongan-Jl. Suryalaya Kota Bandung
+
+Studi Pelaksanaan Prakualifikasi Kontraktor Pada Proyek Pemeliharaan Jalan dan Jembatan Ruas Jalan Kadipaten-Palimanan Jawa Barat
+
+Pengaruh Kedalaman Geotekstil Terhadap Kapasitas Dukung Manikin Pondasi Telapak Bujursangkar Di Atas Tanah Pasir Dengan Kepadatan Relatif (Dr) = + 23%
+
+Pemodelan Numerik Metode Elemen Hingga Nonlinier Struktur Balok Tinggi Beton Bertulang
+
+Studi Kinerja dan Tundaan Simpang Jl. Pajajaran-Jl. Pasir Kaliki Bandung
+
+Aplikasi Fabric Ascendency Pada Perusahaan Konstruksi
+
+Penggunakan Spen Katalis Pada Campuran Lapisan Tipis Aspal Beton (Hot Rolled Sheet-Wearing Year)
+
+Evaluasi Kinerja Terminus Bis Harjamukti Cirebon
+
+Pengaruh Bentuk Pilar Terhadap Penggerusan Lokal Di Sekitar Pilar Jembatan Dengan Example Dua Dimensi
+
+Percepatan Waktu Pada Suatu Proyek Dengan Menggunakan Metode Jalur Kritis
+
+Studi Manajemen Pemeliharaan Mekanikal dan Elektrikal Pada Hotel Holiday Inn Bandung
+
+Studi Parkir Rumah Sakit Di Kota Bandung
+
+Studi Laboratorium Untuk Menentukan Batas Plastis Dengan Pengujian Spillway Cone Audition Pada Tanah Lempung Di Daerah Bandung Selatan
+
+Pengaruh Persentase Batu Pecah Terhadap Harga Satuan Campuran Beton dan Workabilitas (Studi Laboratorium)
+
+Analisis dan Desain Dinding Geser Gedung 20 Tingkat Simetris Dengan Sistem Ganda
+
+Pengaruh Persentase Kadar Batu Pecah Terhadap Nilai CBR Suatu Tanah Pasir (Studi Laboratorium)
+
+Evaluasi Panjang Antrian Kendaraan Pada Layanan Pintu Keluar Tanpa Atau Dengan Perubahan Akses Keluar Di Bandung Supermall
+
+Studi Tundaan Pada Putaran Di Depan Gerbang Tol Cileunyi
+
+Analisis dan Desain Struktur Matt-up Dwelling Beton Bertulang Untuk Gedung Empat Lantai Tahan Gempa
+
+Studi Band Desain Tebal Perkerasan Lentur Menggunakan Metode SNI 1732-1989-F dan Pt T-01-2002-B
+
+Kinerja Simpang Tak Bersinyal Pada Jalan Sindang Sirna – Bungur Bandung
+
+Studi Analisis Pertemuan Balok Kolom Berbentuk T Struktur Rangka Beton Bertulang Dengan Pemodelan Strut-And-Tie
+
+Pengaruh Pola Aliran dan Penggerusan Lokal Di Sekitar Pilar Jembatan Dengan Fabric Dua Dimensi
+
+Pengaruh Pola Aliran Dan Penggerusan Lokal Di Sekitar Pilar jembatan Dengan Pretense Dua Dimensi
+
+Perencanaan Struktur Portal Dengan Balok Prategang
+
+Analisis Perparkiran Di Ginzo Centre
