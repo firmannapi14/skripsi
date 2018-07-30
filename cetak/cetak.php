@@ -69,7 +69,7 @@ if ($_GET['role'] != "" && $_GET['id'] != 0) {
     $no=1;
     $sql = mysqli_query($conn, "SELECT * FROM tb_report
                                 JOIN tb_klasifikasi ON tb_report.kode_klasifikasi=tb_klasifikasi.kode_klasifikasi
-                                WHERE tb_report.nim=$_GET[id]");
+                                WHERE tb_report.nim=$_GET[id] AND tb_report.status_report=1");
     while ($row = mysqli_fetch_array($sql)){
         $pdf->Cell(10,6,$no.".",1,0,'C');
         $pdf->Cell(45,6,$row['klasifikasi'],1,0);
@@ -86,7 +86,7 @@ if ($_GET['role'] != "" && $_GET['id'] != 0) {
             $no=1;
             $sql = mysqli_query($conn, "SELECT * FROM tb_report
                                         JOIN tb_klasifikasi ON tb_report.kode_klasifikasi=tb_klasifikasi.kode_klasifikasi
-                                        WHERE tb_report.nim=$id");
+                                        WHERE tb_report.nim=$id AND tb_report.status_report=1");
             while ($row = mysqli_fetch_array($sql)){
                 $pdf->Cell(10,6,$no.".",1,0,'C');
                 $pdf->Cell(45,6,$row['klasifikasi'],1,0);
@@ -99,7 +99,8 @@ if ($_GET['role'] != "" && $_GET['id'] != 0) {
             $no=1;
             $sql = mysqli_query($conn, "SELECT * FROM tb_report
                                         JOIN tb_klasifikasi ON tb_report.kode_klasifikasi=tb_klasifikasi.kode_klasifikasi
-                                        JOIN tb_mahasiswa ON tb_report.nim=tb_mahasiswa.nim");
+                                        JOIN tb_mahasiswa ON tb_report.nim=tb_mahasiswa.nim
+                                        WHERE tb_report.status_report=1");
             while ($row = mysqli_fetch_array($sql)){
                 $pdf->Cell(10,6,$no.".",1,0,'C');
                 $pdf->Cell(18,6,$row['nim'],1,0,'C');

@@ -38,6 +38,12 @@
 
   <?php } else { ?>
 
+  <li class="<?php if ($_GET['tampil'] == 'home_mhs'){ echo "active"; }?>">
+    <a href="?tampil=home_mhs">
+      <i class="fa fa-dashboard"></i> <span>MENU MAHASISWA</span>
+    </a>
+  </li>
+
   <li class="<?php if ($_GET['tampil'] == 'proses_user'){ echo "active"; }?>">
     <a href="?tampil=proses_user">
       <i class="fa fa-download"></i> <span>INPUT JUDUL</span>
