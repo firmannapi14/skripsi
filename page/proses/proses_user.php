@@ -114,10 +114,9 @@
 
                   if (isset($_POST['deskripsi'])) {
 
-                      $deskripsi = $_POST['deskripsi'];
-                      
+                      $deskripsi = preg_replace('/[^A-Za-z0-9\ ]/', '', $_POST['deskripsi']);
                       $myfile = fopen("stemming.txt", "w") or die("Unable to open file!");
-                      $txt = $_POST['deskripsi'];
+                      $txt = $deskripsi;
                       fwrite($myfile, $txt);
                       fclose($myfile);
                   

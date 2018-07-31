@@ -538,8 +538,15 @@ function hitungMetode($tmpArrper) {
             $key = $a;
         }
     }
-    $hasil = $tmpklas[$key];
+
+    if ($max != 0) {
+        $hasil = $tmpklas[$key];
+    } else {
+        $hasil = "KLS1807999";
+    }
+    
     return $hasil;
+
 }
 
 ?>

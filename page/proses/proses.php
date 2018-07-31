@@ -39,9 +39,10 @@
                 $tmpArrper = array();
 
                   if (isset($_POST['deskripsi'])) {
-                      $deskripsi = $_POST['deskripsi'];
+                      $kata = $_POST['deskripsi'];
+                      $deskripsi = preg_replace('/[^A-Za-z0-9\ ]/', '', $_POST['deskripsi']);
                       $myfile = fopen("stemming.txt", "w") or die("Unable to open file!");
-                      $txt = $_POST['deskripsi'];
+                      $txt = $deskripsi;
                       fwrite($myfile, $txt);
                       fclose($myfile);
                   
@@ -49,7 +50,7 @@
                   if (isset($deskripsi)) {
 
                     if ($role == 0) {
-                      echo "Kata Awal : <b>".$deskripsi."</b>";
+                      echo "Kata Awal : <b>".$kata."</b>";
                     }
                       $output = null;
                       exec("python coba.py", $output, $return);
@@ -1061,12 +1062,12 @@
                 <table class="table table-bordered">
                     <thead>
                         <tr>
-                            <th>D1</th>
-                            <th>D2</th>
-                            <th>D3</th>
-                            <th>D4</th>
-                            <th>D5</th>
-                            <th>D6</th>
+                            <th>D1 (BAHASA INTERNASIONAL)</th>
+                            <th>D2 (MAGANG INDUSTRI)</th>
+                            <th>D3 (PENDIDIKAN KARAKTER)</th>
+                            <th>D4 (PENGALAMAN ORGANISASI)</th>
+                            <th>D5 (TUGAS AKHIR/SKRIPSI)</th>
+                            <th>D6 (PENGHARGAAN KEJUARAAN)</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -1140,11 +1141,18 @@
                             for ($a=0;$a<6;$a++) {
                                 if ($isicosine[$a] == $max) {
                                     $key = $a;
+                                } else if ($isicosine[$a] == 0) {
+                                    $id_er = "KLS1807999";
                                 }
                             }
-
-                            $hasil = $tmpklas[$key];
-
+                            
+                            if ($max != 0) {
+                                $hasil = $tmpklas[$key];
+                            } else {
+                                $hasil = "KLS1807999";
+                            }
+                        
+                    
                             
                             
                         
@@ -1169,9 +1177,19 @@
                     <label class="label-control col-md-4">JAWABAN</label>
                     <div class="col-md-8">
                         <?php
-                        $apasih = mysqli_query($conn,"SELECT * FROM tb_klasifikasi WHERE kode_klasifikasi='$hasil'");
-                        $data = mysqli_fetch_array($apasih);
-                        echo $data['klasifikasi'];
+                        
+                        if ($max != 0) {
+                            $apasih = mysqli_query($conn,"SELECT * FROM tb_klasifikasi WHERE kode_klasifikasi='$hasil'");
+                            $data = mysqli_fetch_array($apasih);
+                            echo $data['klasifikasi'];
+                        } else {
+                            
+                            if ($hasil == "KLS1807999") {
+                                echo "KLASIFIKASI TIDAK SESUAI";
+                            } 
+                        }
+                        
+                        
                         ?>
                     </div>
                 </div>
