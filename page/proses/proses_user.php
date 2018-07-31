@@ -29,7 +29,7 @@
 
                     <div class="col-md-12">
                         <div class="form-group">
-                            <label class="label-control col-md-3">JUDUL SEMINAR/KEGIATAN</label>
+                            <label class="label-control col-md-3">JUDUL/SEMINAR/KEGIATAN</label>
                             <div class="col-md-6">
                                 <input type="hidden" value="<?= $kode_otomatis ?>" name="id_sertif">
                                 <textarea class="form-control" name="deskripsi" rows="3" required></textarea>
@@ -37,7 +37,7 @@
                         </div>
 
                         <div class="form-group">
-                            <label class="label-control col-md-3">JUDUL SEMINAR/KEGIATAN (ENGLISH)</label>
+                            <label class="label-control col-md-3">JUDUL/SEMINAR/KEGIATAN(ENGLISH)</label>
                             <div class="col-md-6">
                                 <textarea class="form-control" name="judul_inggris" rows="3" required></textarea>
                             </div>
@@ -90,18 +90,6 @@
                             </div>
                         </div>
 
-                        <div class="form-group">
-                            <label class="label-control col-md-3"></label>
-                            <div class="col-md-6">
-                            <div class="checkbox">
-                            <label>
-                                <input type="checkbox" name="check" value="1"> Saya yakin jika data yang telah saya masukkan telah <b>Benar</b> dan <b>Sesuai</b> 
-                            </label>
-                            </div>
-                            </div>
-                        </div>
-
-
                     </div>
 
                     <div class="col-md-12">
@@ -111,6 +99,7 @@
                                 <button type="submit" name="tambah" class="btn btn-primary">
                                     <span class="fa fa-refresh"></span> PROSES
                                 </button>
+                                <a class="btn btn-danger" href="?tampil=konfirmasi"><i class="fa fa-remove"></i> BATAL</a>
                             </div>
                         </div>
                     </div>

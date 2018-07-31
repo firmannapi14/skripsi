@@ -30,6 +30,12 @@
     </a>
   </li>
 
+  <li class="<?php if ($_GET['tampil'] == 'konfirmasi'){ echo "active"; }?>">
+    <a href="?tampil=konfirmasi">
+      <i class="fa fa-file-text"></i> <span>KONFIRMASI</span>
+    </a>
+  </li>
+
   <li class="<?php if ($_GET['tampil'] == 'proses'){ echo "active"; }?>">
     <a href="?tampil=proses">
       <i class="fa fa-refresh"></i> <span>PROSES TF-IDF</span>
@@ -49,13 +55,12 @@
       <i class="fa fa-download"></i> <span>INPUT JUDUL</span>
     </a>
   </li>
-
-  <?php } ?>
-
+  
   <li class="<?php if ($_GET['tampil'] == 'konfirmasi'){ echo "active"; }?>">
     <a href="?tampil=konfirmasi">
       <i class="fa fa-file-text"></i> <span>KONFIRMASI</span>
     </a>
   </li>
+  <?php } ?>
 
 </ul>

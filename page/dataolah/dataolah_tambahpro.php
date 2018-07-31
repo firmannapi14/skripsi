@@ -23,7 +23,7 @@
 
                 if (isset($catatan)) {
                     $output = null;
-                    exec("python coba.py", $output, $return);                
+                    exec("python cobaolah.py", $output, $return);                
 
                     $arrper     = preg_replace('/[^A-Za-z0-9\ ]/', '', $output[2]);
                     $tmpArrper  = explode(" ",$arrper);

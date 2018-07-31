@@ -12,6 +12,7 @@
     <?php
 
         $input  = mysqli_query($conn, "UPDATE tb_mahasiswa SET
+                    nim             = '$_POST[nim_baru]',
                     nama_mahasiswa  = '$_POST[nama_mhs]',
                     jurusan         = '$_POST[jurusan]',
                     email           = '$_POST[email]',

@@ -23,9 +23,9 @@
 
             <div class="form-group">
               <label class="label-control col-md-2">NIM</label>
-              <div class="col-md-8">
+              <div class="col-md-2">
                 <input value="<?= $data['nim']; ?>" type="hidden" name="nim" class="form-control">
-                <a class="btn btn-primary"><?= $data['nim'] ?></a>
+                <input value="<?= $data['nim']; ?>" type="text" name="nim_baru" class="form-control" required>
               </div>
             </div>
 

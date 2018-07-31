@@ -9,6 +9,9 @@
   $klas         = mysqli_query($conn, "SELECT * FROM tb_klasifikasi");
   $hitklas      = mysqli_num_rows($klas);
 
+  $report       = mysqli_query($conn, "SELECT * FROM tb_report WHERE deleted_at IS NULL");
+  $hitreport    = mysqli_num_rows($report);
+
 
 ?>
 <section class="content-header">
@@ -70,5 +73,38 @@
               </div>
             </div>
             <!-- ./col -->
+        </div>
+
+<div class="row">
+            <div class="col-md-12">
+            </div>
+            <!-- ./col -->
+            <div class="col-md-4">
+              <div class="small-box bg-blue">
+                  <div class="inner">
+                  <h3><?= $hitreport ?></h3>
+
+                  <p>Konfirmasi</p>
+                  </div>
+                  <div class="icon">
+                  <i class="fa fa-users"></i>
+                  </div>
+                  <a href="?tampil=konfirmasi" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+              </div>
+            </div>
+            <!-- ./col -->
+            <div class="col-md-4">
+              <div class="small-box bg-yellow">
+                  <div class="inner">
+                  <h3>Proses</h3>
+
+                  <p>TF-IDF</p> 
+                  </div>
+                  <div class="icon">
+                  <i class="fa fa-refresh"></i>
+                  </div>
+                  <a href="?tampil=proses" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+              </div>
+            </div>
         </div>
 </section>

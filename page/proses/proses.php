@@ -127,7 +127,15 @@
                     
                     $tmp1termd1 = array_unique($tmptermd1);
                     $d1         = array_values($tmp1termd1);
-
+                    echo "<pre>";
+                    // print_r($d6);
+                    $i = 0;
+                    foreach($d1 as $ula){
+                        print($d1[$i]);
+                        print("<br>");
+                        $i++;}
+                    echo "</pre>";
+                   
                     // Bagian untuk memproses Term di Dokumen 2 yaitu Magang Industri -------------
                     $sql = mysqli_query($conn, "SELECT normalisasi FROM tb_dataolah WHERE kode_klasifikasi='KLS1807002'");
                     while($data = mysqli_fetch_array($sql)) {
@@ -137,6 +145,8 @@
                     
                     $tmp2termd2 = array_unique($tmptermd2);
                     $d2         = array_values($tmp2termd2);
+                   
+              
 
                     // Bagian untuk memproses Term di Dokumen 3 yaitu Pendidikan Karakter -------------
                     $sql = mysqli_query($conn, "SELECT normalisasi FROM tb_dataolah WHERE kode_klasifikasi='KLS1807003'");
@@ -148,6 +158,8 @@
                     $tmp3termd3 = array_unique($tmptermd3);
                     $d3         = array_values($tmp3termd3);
 
+                
+
                     // Bagian untuk memproses Term di Dokumen 4 yaitu Pengalaman Organisasi -------------
                     $sql = mysqli_query($conn, "SELECT normalisasi FROM tb_dataolah WHERE kode_klasifikasi='KLS1807004'");
                     while($data = mysqli_fetch_array($sql)) {
@@ -157,6 +169,8 @@
                     
                     $tmp4termd4 = array_unique($tmptermd4);
                     $d4         = array_values($tmp4termd4);
+
+                   
 
                     // Bagian untuk memproses Term di Dokumen 5 yaitu Tugas Akhir/Skripsi -------------
                     $sql = mysqli_query($conn, "SELECT normalisasi FROM tb_dataolah WHERE kode_klasifikasi='KLS1807005'");
@@ -168,6 +182,7 @@
                     $tmp5termd5 = array_unique($tmptermd5);
                     $d5         = array_values($tmp5termd5);
 
+                    
                     // Bagian untuk memproses Term di Dokumen 6 yaitu Penghargaan dan Kejuaraan -------------
                     $sql = mysqli_query($conn, "SELECT normalisasi FROM tb_dataolah WHERE kode_klasifikasi='KLS1807006'");
                     while($data = mysqli_fetch_array($sql)) {
@@ -177,7 +192,7 @@
                     
                     $tmp6termd6 = array_unique($tmptermd6);
                     $d6         = array_values($tmp6termd6);
-
+                    
 
 
                     //Perulangan Baris ------------------------
@@ -693,15 +708,15 @@
 
                         for ($b=0;$b<1;$b++) {
                             if ($idf[$a] > 0) {
-                                echo "<td><a class='btn btn-success btn-xs'>".$idf[$a]."</a></td>";
+                                echo "<td><a class='btn btn-success btn-xs'>".number_format($idf[$a],5)."</a></td>";
                             } else {
-                                echo "<td>".$idf[$a]."</td>";
+                                echo "<td>".number_format($idf[$a],4)."</td>";
                             }
                         }
 
                         for ($b=0;$b<1;$b++) {
                             if ($wdtq[$a] > 0) {
-                                echo "<td><a class='btn btn-primary btn-xs'>".$wdtq[$a]."</a></td>";
+                                echo "<td><a class='btn btn-primary btn-xs'>".number_format($wdtq[$a],5)."</a></td>";
                             } else {
                                 echo "<td>".$wdtq[$a]."</td>";
                             }
@@ -709,7 +724,7 @@
 
                         for ($b=0;$b<1;$b++) {
                             if ($wdtd1[$a] > 0) {
-                                echo "<td><a class='btn btn-primary btn-xs'>".$wdtd1[$a]."</a></td>";
+                                echo "<td><a class='btn btn-primary btn-xs'>".number_format($wdtd1[$a],5)."</a></td>";
                             } else {
                                 echo "<td>".$wdtd1[$a]."</td>";
                             }
@@ -717,7 +732,7 @@
 
                         for ($b=0;$b<1;$b++) {
                             if ($wdtd2[$a] > 0) {
-                                echo "<td><a class='btn btn-primary btn-xs'>".$wdtd2[$a]."</a></td>";
+                                echo "<td><a class='btn btn-primary btn-xs'>".number_format($wdtd2[$a],5)."</a></td>";
                             } else {
                                 echo "<td>".$wdtd2[$a]."</td>";
                             }
@@ -725,7 +740,7 @@
 
                         for ($b=0;$b<1;$b++) {
                             if ($wdtd3[$a] > 0) {
-                                echo "<td><a class='btn btn-primary btn-xs'>".$wdtd3[$a]."</a></td>";
+                                echo "<td><a class='btn btn-primary btn-xs'>".number_format($wdtd3[$a],5)."</a></td>";
                             } else {
                                 echo "<td>".$wdtd3[$a]."</td>";
                             }
@@ -733,7 +748,7 @@
 
                         for ($b=0;$b<1;$b++) {
                             if ($wdtd4[$a] > 0) {
-                                echo "<td><a class='btn btn-primary btn-xs'>".$wdtd4[$a]."</a></td>";
+                                echo "<td><a class='btn btn-primary btn-xs'>".number_format($wdtd4[$a],5)."</a></td>";
                             } else {
                                 echo "<td>".$wdtd4[$a]."</td>";
                             }
@@ -741,7 +756,7 @@
 
                         for ($b=0;$b<1;$b++) {
                             if ($wdtd5[$a] > 0) {
-                                echo "<td><a class='btn btn-primary btn-xs'>".$wdtd5[$a]."</a></td>";
+                                echo "<td><a class='btn btn-primary btn-xs'>".number_format($wdtd5[$a],5)."</a></td>";
                             } else {
                                 echo "<td>".$wdtd5[$a]."</td>";
                             }
@@ -749,7 +764,7 @@
 
                         for ($b=0;$b<1;$b++) {
                             if ($wdtd6[$a] > 0) {
-                                echo "<td><a class='btn btn-primary btn-xs'>".$wdtd6[$a]."</a></td>";
+                                echo "<td><a class='btn btn-primary btn-xs'>".number_format($wdtd6[$a],5)."</a></td>";
                             } else {
                                 echo "<td>".$wdtd6[$a]."</td>";
                             }
@@ -813,7 +828,7 @@
 
                         for ($b=0;$b<1;$b++) {
                             if ($wd5d1[$a] > 0) {
-                                echo "<td><a class='btn btn-primary btn-xs'>".$wd5d1[$a]."</a></td>";
+                                echo "<td><a class='btn btn-primary btn-xs'>".number_format($wd5d1[$a],5)."</a></td>";
                             } else {
                                 echo "<td>".$wd5d1[$a]."</td>";
                             }
@@ -821,7 +836,7 @@
 
                         for ($b=0;$b<1;$b++) {
                             if ($wd5d2[$a] > 0) {
-                                echo "<td><a class='btn btn-primary btn-xs'>".$wd5d2[$a]."</a></td>";
+                                echo "<td><a class='btn btn-primary btn-xs'>".number_format($wd5d2[$a],5)."</a></td>";
                             } else {
                                 echo "<td>".$wd5d2[$a]."</td>";
                             }
@@ -829,7 +844,7 @@
 
                         for ($b=0;$b<1;$b++) {
                             if ($wd5d3[$a] > 0) {
-                                echo "<td><a class='btn btn-primary btn-xs'>".$wd5d3[$a]."</a></td>";
+                                echo "<td><a class='btn btn-primary btn-xs'>".number_format($wd5d3[$a],5)."</a></td>";
                             } else {
                                 echo "<td>".$wd5d3[$a]."</td>";
                             }
@@ -837,7 +852,7 @@
 
                         for ($b=0;$b<1;$b++) {
                             if ($wd5d4[$a] > 0) {
-                                echo "<td><a class='btn btn-primary btn-xs'>".$wd5d4[$a]."</a></td>";
+                                echo "<td><a class='btn btn-primary btn-xs'>".number_format($wd5d4[$a],5)."</a></td>";
                             } else {
                                 echo "<td>".$wd5d4[$a]."</td>";
                             }
@@ -845,7 +860,7 @@
 
                         for ($b=0;$b<1;$b++) {
                             if ($wd5d5[$a] > 0) {
-                                echo "<td><a class='btn btn-primary btn-xs'>".$wd5d5[$a]."</a></td>";
+                                echo "<td><a class='btn btn-primary btn-xs'>".number_format($wd5d5[$a],5)."</a></td>";
                             } else {
                                 echo "<td>".$wd5d5[$a]."</td>";
                             }
@@ -853,7 +868,7 @@
 
                         for ($b=0;$b<1;$b++) {
                             if ($wd5d6[$a] > 0) {
-                                echo "<td><a class='btn btn-primary btn-xs'>".$wd5d6[$a]."</a></td>";
+                                echo "<td><a class='btn btn-primary btn-xs'>".number_format($wd5d6[$a],5)."</a></td>";
                             } else {
                                 echo "<td>".$wd5d6[$a]."</td>";
                             }
@@ -863,7 +878,7 @@
 
                         for ($b=0;$b<1;$b++) {
                             if ($powwdtq[$a] > 0) {
-                                echo "<td><a class='btn btn-primary btn-xs'>".$powwdtq[$a]."</a></td>";
+                                echo "<td><a class='btn btn-primary btn-xs'>".number_format($powwdtq[$a],5)."</a></td>";
                             } else {
                                 echo "<td>".$powwdtq[$a]."</td>";
                             }
@@ -871,7 +886,7 @@
 
                         for ($b=0;$b<1;$b++) {
                             if ($powwdtd1[$a] > 0) {
-                                echo "<td><a class='btn btn-primary btn-xs'>".$powwdtd1[$a]."</a></td>";
+                                echo "<td><a class='btn btn-primary btn-xs'>".number_format($powwdtd1[$a],5)."</a></td>";
                             } else {
                                 echo "<td>".$powwdtd1[$a]."</td>";
                             }
@@ -879,7 +894,7 @@
 
                         for ($b=0;$b<1;$b++) {
                             if ($powwdtd2[$a] > 0) {
-                                echo "<td><a class='btn btn-primary btn-xs'>".$powwdtd2[$a]."</a></td>";
+                                echo "<td><a class='btn btn-primary btn-xs'>".number_format($powwdtd2[$a],5)."</a></td>";
                             } else {
                                 echo "<td>".$powwdtd2[$a]."</td>";
                             }
@@ -887,7 +902,7 @@
 
                         for ($b=0;$b<1;$b++) {
                             if ($powwdtd3[$a] > 0) {
-                                echo "<td><a class='btn btn-primary btn-xs'>".$powwdtd3[$a]."</a></td>";
+                                echo "<td><a class='btn btn-primary btn-xs'>".number_format($powwdtd3[$a],5)."</a></td>";
                             } else {
                                 echo "<td>".$powwdtd3[$a]."</td>";
                             }
@@ -895,7 +910,7 @@
 
                         for ($b=0;$b<1;$b++) {
                             if ($powwdtd4[$a] > 0) {
-                                echo "<td><a class='btn btn-primary btn-xs'>".$powwdtd4[$a]."</a></td>";
+                                echo "<td><a class='btn btn-primary btn-xs'>".number_format($powwdtd4[$a],5)."</a></td>";
                             } else {
                                 echo "<td>".$powwdtd4[$a]."</td>";
                             }
@@ -903,7 +918,7 @@
 
                         for ($b=0;$b<1;$b++) {
                             if ($powwdtd5[$a] > 0) {
-                                echo "<td><a class='btn btn-primary btn-xs'>".$powwdtd5[$a]."</a></td>";
+                                echo "<td><a class='btn btn-primary btn-xs'>".number_format($powwdtd5[$a],5)."</a></td>";
                             } else {
                                 echo "<td>".$powwdtd5[$a]."</td>";
                             }
@@ -911,7 +926,7 @@
 
                         for ($b=0;$b<1;$b++) {
                             if ($powwdtd6[$a] > 0) {
-                                echo "<td><a class='btn btn-primary btn-xs'>".$powwdtd6[$a]."</a></td>";
+                                echo "<td><a class='btn btn-primary btn-xs'>".number_format($powwdtd6[$a],5)."</a></td>";
                             } else {
                                 echo "<td>".$powwdtd6[$a]."</td>";
                             }
@@ -925,27 +940,27 @@
                     echo "<th rowspan='2'>JUMLAH</th>";
                     
                     for ($a=0;$a<1;$a++) {
-                        echo "<td><a class='btn btn-success'>".$sumwd5d1[$a]."</a></td>";
+                        echo "<td><a class='btn btn-success'>".number_format($sumwd5d1[$a],5)."</a></td>";
                     }
 
                     for ($a=0;$a<1;$a++) {
-                        echo "<td><a class='btn btn-success'>".$sumwd5d2[$a]."</a></td>";
+                        echo "<td><a class='btn btn-success'>".number_format($sumwd5d2[$a],5)."</a></td>";
                     }
 
                     for ($a=0;$a<1;$a++) {
-                        echo "<td><a class='btn btn-success'>".$sumwd5d3[$a]."</a></td>";
+                        echo "<td><a class='btn btn-success'>".number_format($sumwd5d3[$a],5)."</a></td>";
                     }
 
                     for ($a=0;$a<1;$a++) {
-                        echo "<td><a class='btn btn-success'>".$sumwd5d4[$a]."</a></td>";
+                        echo "<td><a class='btn btn-success'>".number_format($sumwd5d4[$a],5)."</a></td>";
                     }
 
                     for ($a=0;$a<1;$a++) {
-                        echo "<td><a class='btn btn-success'>".$sumwd5d5[$a]."</a></td>";
+                        echo "<td><a class='btn btn-success'>".number_format($sumwd5d5[$a],5)."</a></td>";
                     }
 
                     for ($a=0;$a<1;$a++) {
-                        echo "<td><a class='btn btn-success'>".$sumwd5d6[$a]."</a></td>";
+                        echo "<td><a class='btn btn-success'>".number_format($sumwd5d6[$a],5)."</a></td>";
                     }
 
                     for ($a=0;$a<1;$a++) {
@@ -953,31 +968,31 @@
                     }
 
                     for ($a=0;$a<1;$a++) {
-                        echo "<td><a class='btn btn-success'>".$sumpowq[$a]."</a></td>";
+                        echo "<td><a class='btn btn-success'>".number_format($sumpowq[$a],5)."</a></td>";
                     }
 
                     for ($a=0;$a<1;$a++) {
-                        echo "<td><a class='btn btn-success'>".$sumpowd1[$a]."</a></td>";
+                        echo "<td><a class='btn btn-success'>".number_format($sumpowd1[$a],5)."</a></td>";
                     }
 
                     for ($a=0;$a<1;$a++) {
-                        echo "<td><a class='btn btn-success'>".$sumpowd2[$a]."</a></td>";
+                        echo "<td><a class='btn btn-success'>".number_format($sumpowd2[$a],5)."</a></td>";
                     }
 
                     for ($a=0;$a<1;$a++) {
-                        echo "<td><a class='btn btn-success'>".$sumpowd3[$a]."</a></td>";
+                        echo "<td><a class='btn btn-success'>".number_format($sumpowd3[$a],5)."</a></td>";
                     }
 
                     for ($a=0;$a<1;$a++) {
-                        echo "<td><a class='btn btn-success'>".$sumpowd4[$a]."</a></td>";
+                        echo "<td><a class='btn btn-success'>".number_format($sumpowd4[$a],5)."</a></td>";
                     }
 
                     for ($a=0;$a<1;$a++) {
-                        echo "<td><a class='btn btn-success'>".$sumpowd5[$a]."</a></td>";
+                        echo "<td><a class='btn btn-success'>".number_format($sumpowd5[$a],5)."</a></td>";
                     }
 
                     for ($a=0;$a<1;$a++) {
-                        echo "<td><a class='btn btn-success'>".$sumpowd6[$a]."</a></td>";
+                        echo "<td><a class='btn btn-success'>".number_format($sumpowd6[$a],5)."</a></td>";
                     }
 
                     echo "</tr>";
@@ -988,31 +1003,31 @@
                     }
 
                     for ($a=0;$a<1;$a++) {
-                        echo "<td><a class='btn btn-success'>".$akarq[$a]."</a></td>";
+                        echo "<td><a class='btn btn-success'>".number_format($akarq[$a],5)."</a></td>";
                     }
 
                     for ($a=0;$a<1;$a++) {
-                        echo "<td><a class='btn btn-success'>".$akard1[$a]."</a></td>";
+                        echo "<td><a class='btn btn-success'>".number_format($akard1[$a],5)."</a></td>";
                     }
 
                     for ($a=0;$a<1;$a++) {
-                        echo "<td><a class='btn btn-success'>".$akard2[$a]."</a></td>";
+                        echo "<td><a class='btn btn-success'>".number_format($akard2[$a],5)."</a></td>";
                     }
 
                     for ($a=0;$a<1;$a++) {
-                        echo "<td><a class='btn btn-success'>".$akard3[$a]."</a></td>";
+                        echo "<td><a class='btn btn-success'>".number_format($akard3[$a],5)."</a></td>";
                     }
                     
                     for ($a=0;$a<1;$a++) {
-                        echo "<td><a class='btn btn-success'>".$akard4[$a]."</a></td>";
+                        echo "<td><a class='btn btn-success'>".number_format($akard4[$a],5)."</a></td>";
                     }
 
                     for ($a=0;$a<1;$a++) {
-                        echo "<td><a class='btn btn-success'>".$akard5[$a]."</a></td>";
+                        echo "<td><a class='btn btn-success'>".number_format($akard5[$a],5)."</a></td>";
                     }
 
                     for ($a=0;$a<1;$a++) {
-                        echo "<td><a class='btn btn-success'>".$akard6[$a]."</a></td>";
+                        echo "<td><a class='btn btn-success'>".number_format($akard6[$a],5)."</a></td>";
                     }
 
                     echo "</tr>";
@@ -1061,37 +1076,61 @@
                             $pindah = array();
                             
                             for ($a=0;$a<1;$a++) {
-                                echo "<td><a class='btn btn-success'>".$cosd1[$a]."</a></td>";
+                                if ($cosd1[$a] > 0) {
+                                echo "<td><a class='btn btn-success'>".number_format($cosd1[$a],5)."</a></td>";
+                                } else {
+                                    echo "<td>".$cosd1[$a]."</td>";
+                                }
                                 $pindah = array($cosd1[$a]);
                                 $isicosine = array_merge($isicosine, $pindah);
                             }
 
                             for ($a=0;$a<1;$a++) {
-                                echo "<td><a class='btn btn-success'>".$cosd2[$a]."</a></td>";
+                                if ($cosd2[$a] > 0) {
+                                echo "<td><a class='btn btn-success'>".number_format($cosd2[$a],5)."</a></td>";
+                                 } else {
+                                    echo "<td>".$cosd2[$a]."</td>";
+                                }
                                 $pindah = array($cosd2[$a]);
                                 $isicosine = array_merge($isicosine, $pindah);
                             }
 
                             for ($a=0;$a<1;$a++) {
-                                echo "<td><a class='btn btn-success'>".$cosd3[$a]."</a></td>";
+                                if ($cosd3[$a] > 0) {
+                                echo "<td><a class='btn btn-success'>".number_format($cosd3[$a],5)."</a></td>";
+                                } else {
+                                    echo "<td>".$cosd3[$a]."</td>";
+                                }
                                 $pindah = array($cosd3[$a]);
                                 $isicosine = array_merge($isicosine, $pindah);
                             }
 
                             for ($a=0;$a<1;$a++) {
-                                echo "<td><a class='btn btn-success'>".$cosd4[$a]."</a></td>";
+                                if ($cosd4[$a] > 0) {
+                                echo "<td><a class='btn btn-success'>".number_format($cosd4[$a],5)."</a></td>";
+                                } else {
+                                    echo "<td>".$cosd4[$a]."</td>";
+                                }
                                 $pindah = array($cosd4[$a]);
                                 $isicosine = array_merge($isicosine, $pindah);
                             }
 
                             for ($a=0;$a<1;$a++) {
-                                echo "<td><a class='btn btn-success'>".$cosd5[$a]."</a></td>";
+                                if ($cosd5[$a] > 0) {
+                                echo "<td><a class='btn btn-success'>".number_format($cosd5[$a],5)."</a></td>";
+                                } else {
+                                    echo "<td>".$cosd5[$a]."</td>";
+                                }
                                 $pindah = array($cosd5[$a]);
                                 $isicosine = array_merge($isicosine, $pindah);
                             }
 
                             for ($a=0;$a<1;$a++) {
-                                echo "<td><a class='btn btn-success'>".$cosd6[$a]."</a></td>";
+                                if ($cosd6[$a] > 0) {
+                                echo "<td><a class='btn btn-success'>".number_format($cosd6[$a],5)."</a></td>";
+                                } else {
+                                    echo "<td>".$cosd6[$a]."</td>";
+                                }
                                 $pindah = array($cosd6[$a]);
                                 $isicosine = array_merge($isicosine, $pindah);
                             }

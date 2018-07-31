@@ -97,7 +97,7 @@
               $_SESSION['password'] = $data['password'];
               echo"<meta http-equiv='refresh' content='1;
               url=index.php?tampil=home_mhs'>";
-            }
+                }
         }
 
 

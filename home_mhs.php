@@ -18,7 +18,7 @@
             <div class="col-md-4">
               <div class="small-box bg-green">
                   <div class="inner">
-                  <h3>INPUT JUDUL</h3>
+                  <h3>Input Data</h3>
 
                   <p>Mahasiswa</p>
                   </div>
@@ -32,7 +32,7 @@
             <div class="col-md-4">
               <div class="small-box bg-yellow">
                   <div class="inner">
-                  <h3>KONFIRMASI</h3>
+                  <h3>Konfirmasi</h3>
 
                   <p>Mahasiswa</p> 
                   </div>

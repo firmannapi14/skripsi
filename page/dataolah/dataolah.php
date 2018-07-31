@@ -23,9 +23,14 @@
               <div class="form-group">
                 <label class="label-control col-md-2">TANGGAL TERBIT</label>
                 <div class="col-md-6">
-                  <input type="text" name="tgl_terbit"class="form-control pull-right" id="datepicker">
+                    <div class="input-group date">
+                        <div class="input-group-addon">
+                            <i class="fa fa-calendar"></i>
+                        </div>
+                            <input type="text" name="tgl_terbit" class="form-control pull-right" id="datepicker1" autocomplete="off" required>
+                    </div>
                 </div>
-              </div>
+            </div>
 
               <div class="form-group">
                 <label class="label-control col-md-2">KLASIFIKASI</label>
@@ -73,7 +78,7 @@
                       </a>
                     </h4>
                   </div>
-                  <div id="dua" class="panel-collapse collapse in">
+                  <div id="dua" class="panel-collapse collapse">
                     <div class="box-body">
                       <div class="table-responsive">
                           <table id="example1" class="table table-bordered table-striped">
@@ -153,7 +158,7 @@
                   <div id="tiga" class="panel-collapse collapse">
                     <div class="box-body">
                     <div class="table-responsive">
-                        <table id="example1" class="table table-bordered table-striped">
+                        <table id="example2" class="table table-bordered table-striped">
                             <thead>
                             <tr>
                             <th>NO</th>
@@ -230,7 +235,7 @@
                   <div id="empat" class="panel-collapse collapse">
                     <div class="box-body">
                     <div class="table-responsive">
-                        <table id="example1" class="table table-bordered table-striped">
+                        <table id="example3" class="table table-bordered table-striped">
                             <thead>
                             <tr>
                             <th>NO</th>
@@ -308,7 +313,7 @@
                   <div id="lima" class="panel-collapse collapse">
                     <div class="box-body">
                     <div class="table-responsive">
-                        <table id="example1" class="table table-bordered table-striped">
+                        <table id="example4" class="table table-bordered table-striped">
                             <thead>
                             <tr>
                             <th>NO</th>
@@ -385,7 +390,7 @@
                   <div id="enam" class="panel-collapse collapse">
                     <div class="box-body">
                     <div class="table-responsive">
-                        <table id="example1" class="table table-bordered table-striped">
+                        <table id="example5" class="table table-bordered table-striped">
                             <thead>
                             <tr>
                             <th>NO</th>
@@ -463,7 +468,7 @@
                   <div id="tujuh" class="panel-collapse collapse">
                     <div class="box-body">
                     <div class="table-responsive">
-                        <table id="example1" class="table table-bordered table-striped">
+                        <table id="example6" class="table table-bordered table-striped">
                             <thead>
                             <tr>
                             <th>NO</th>
