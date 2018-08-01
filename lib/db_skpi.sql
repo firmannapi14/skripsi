@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 28, 2018 at 05:15 AM
+-- Generation Time: Aug 01, 2018 at 04:02 AM
 -- Server version: 10.1.31-MariaDB
 -- PHP Version: 7.2.3
 
@@ -180,7 +180,8 @@ INSERT INTO `tb_dataolah` (`kode_dataolah`, `judul_indonesia`, `tanggal_terbit`,
 (124, 'Perancangan Ulang Penstock Untuk Memaksimalkan Kapasitas Terpasang Pada PLTMII Plengan', '2018-07-09', 'KLS1807005', 'Perancangan Ulang Penstock Untuk Memaksimalkan Kapasitas Terpasang Pada PLTMII Plengan adalah skripsi dari mahasisw Teknik Elektro', 'ancang ulang penstock maksimal kapasitas pasang pltmii plengan'),
 (125, 'Perancangan Alat Penyiraman Tanaman Otomatis Berbasis Mikrokontrorel Arduino Mega Menggunakan Sensor Soil Moisture Dengan Metode Fuzzy Tahani', '2018-07-09', 'KLS1807005', 'Perancangan Alat Penyiraman Tanaman Otomatis Berbasis Mikrokontrorel Arduino Mega Menggunakan Sensor Soil Moisture Dengan Metode Fuzzy Tahani adalah judul tugas akhir dari mahasiswa Teknik Informatika', 'ancang alat siram tanam otomatis mikrokontrorel arduino mega sensor soil moisture metode fuzzy tahan'),
 (126, 'Analisis Kegagalan Material Lance Tube Tipe Long Retractable Sootblower', '2018-07-09', 'KLS1807005', 'Analisis Kegagalan Material Lance Tube Tipe Long Retractable Sootblower adalah sebuah judul tugas akhir yang di kerjakan oleh mahasiswa Teknik Sipil', 'analisis gagal material lance tube tipe long retractable sootblower'),
-(127, 'Rancang Bangun Sistem Pelacak Teknisi Lapangan Terdekat Lokasi Gangguan Dengan Realtime Menggunakan Firebase Realtime Database', '2018-07-09', 'KLS1807005', 'Rancang Bangun Sistem Pelacak Teknisi Lapangan Terdekat Lokasi Gangguan Dengan Realtime Menggunakan Firebase Realtime Database adalah sebuah tugas akhir yang dikerjakan oleh mahasiswa Teknik Informatika', 'rancang bangun sistem lacak teknisi lapang dekat lokasi ganggu realtime firebase realtime database');
+(127, 'Rancang Bangun Sistem Pelacak Teknisi Lapangan Terdekat Lokasi Gangguan Dengan Realtime Menggunakan Firebase Realtime Database', '2018-07-09', 'KLS1807005', 'Rancang Bangun Sistem Pelacak Teknisi Lapangan Terdekat Lokasi Gangguan Dengan Realtime Menggunakan Firebase Realtime Database adalah sebuah tugas akhir yang dikerjakan oleh mahasiswa Teknik Informatika', 'rancang bangun sistem lacak teknisi lapang dekat lokasi ganggu realtime firebase realtime database'),
+(128, 'Cisco IPv6 Technologies', '2018-07-23', 'KLS1807001', 'Amerika Jepang Inggris', 'amerika jepang inggris');
 
 -- --------------------------------------------------------
 
@@ -228,9 +229,8 @@ CREATE TABLE `tb_mahasiswa` (
 --
 
 INSERT INTO `tb_mahasiswa` (`nim`, `nama_mahasiswa`, `jurusan`, `email`, `telepon`, `username`, `password`, `status`) VALUES
-(201431051, 'Abdul Malik Khoiri', 'S1 Teknik Informatika', 'malik1431051@sttpln.ac.id', '081308130813', 'malik', 'malik', 'Aktif'),
 (201431290, 'Muhammad Umar Ramadhana', 'S1 Teknik Informatika', 'umar@gmail.com', '082243434444', 'umar', 'umar', 'Aktif'),
-(201431291, 'Firman Giri', 'S1 Teknik Informatika', 'firmangirif@gmail.com', '085244746050', 'ir', 'ir', 'Aktif'),
+(201431291, 'Firman Giri', 'S1 Teknik Elektro', 'firmangirif@gmail.com', '085244746050', 'ir', 'ir', 'Aktif'),
 (201431294, 'Rizki Nurdian Utami', 'S1 Teknik Informatika', 'dian@sttpln.ac.id', '085244002233', 'dian ', 'dian', 'Aktif'),
 (201431296, 'Fahmi Roihanul Firdaus', 'S1 Teknik Informatika', 'fahmi@gmail.com', '081308130808', 'rehan', 'rehan', 'Aktif'),
 (201431299, 'Muh Iriansyah', 'S1 Teknik Informatika', 'iriansyah1431299@sttpln.ac.id', '085244746050', 'pace', 'pace', 'Aktif'),
@@ -243,7 +243,7 @@ INSERT INTO `tb_mahasiswa` (`nim`, `nama_mahasiswa`, `jurusan`, `email`, `telepo
 --
 
 CREATE TABLE `tb_report` (
-  `id_report` int(100) NOT NULL,
+  `id_report` varchar(7) NOT NULL,
   `nim` int(11) NOT NULL,
   `kode_klasifikasi` varchar(30) NOT NULL,
   `judul_indonesia` text NOT NULL,
@@ -255,15 +255,20 @@ CREATE TABLE `tb_report` (
   `nama_negara` varchar(30) NOT NULL,
   `periode_awal` date NOT NULL,
   `periode_akhir` date NOT NULL,
-  `status_report` int(1) NOT NULL
+  `status_report` int(1) NOT NULL,
+  `deleted_at` timestamp NULL DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `tb_report`
 --
 
-INSERT INTO `tb_report` (`id_report`, `nim`, `kode_klasifikasi`, `judul_indonesia`, `judul_inggris`, `judul_stem`, `tgl_terbit`, `instansi_penyelenggara`, `nama_kota`, `nama_negara`, `periode_awal`, `periode_akhir`, `status_report`) VALUES
-(31, 201431299, 'KLS1807003', 'Pelatihan Keterampilan Manajemen Mahasiswa', 'Pelatihan Keterampilan Manajemen Mahasiswa', 'latih terampil manajemen mahasiswa', '2018-07-10', 'STT PLN Jakarta', 'Jakarta', 'Indonesia', '2018-07-08', '2018-07-10', 1);
+INSERT INTO `tb_report` (`id_report`, `nim`, `kode_klasifikasi`, `judul_indonesia`, `judul_inggris`, `judul_stem`, `tgl_terbit`, `instansi_penyelenggara`, `nama_kota`, `nama_negara`, `periode_awal`, `periode_akhir`, `status_report`, `deleted_at`) VALUES
+('SRTF001', 201431299, 'KLS1807006', 'Lomba Inovasi ICON PLUS', 'Lomba Inovasi ICON PLUS', 'lomba inovasi icon plus', '2018-07-08', 'STT PLN Jakarta', 'Jakarta Barat', 'Indonesia', '2018-07-09', '2018-07-12', 1, NULL),
+('SRTF002', 201431299, 'KLS1807006', 'Lomba IT Festifal Himaka STT PLN Jakarta', 'Lomba IT Festifal Himaka STT PLN Jakarta', 'lomba it festifal himaka stt pln jakarta', '2018-07-22', 'STT PLN Jakarta', 'Jakarta Barat', 'Indonesia', '2018-07-23', '2018-07-23', 2, NULL),
+('SRTF003', 201431299, 'KLS1807003', 'Latihan Keterampilan Manajemen Mahasiswa S1 SIPIL', 'Latihan Keterampilan Manajemen Mahasiswa S1 SIPIL', 'latih terampil manajemen mahasiswa s1 sipil', '2018-07-16', 'STT PLN Jakarta', 'Jakarta Barat', 'Indonesia', '2018-07-01', '2018-07-31', 1, NULL),
+('SRTF004', 201431299, 'KLS1807003', 'Latihan Keterampilan Manajeman Mahasiswa', 'Latihan Keterampilan Manajemen Mahasiswa', 'latih terampil manajeman mahasiswa', '2018-06-25', 'STT PLN Jakarta', 'Jakarta Timur', 'Indonesia', '2018-07-02', '2018-07-17', 0, NULL),
+('SRTF005', 201431299, 'KLS1807006', 'Lomba Inovasi PLN Persero  Jakarta', 'Lomba Inovasi PLN Persero Jakarta', 'lomba inovasi pln persero jakarta', '2018-07-30', 'STT PLN Jakarta', 'Jakarta Barat', 'Indonesia', '2018-07-23', '2018-07-22', 0, NULL);
 
 --
 -- Indexes for dumped tables
@@ -310,13 +315,7 @@ ALTER TABLE `tb_report`
 -- AUTO_INCREMENT for table `tb_dataolah`
 --
 ALTER TABLE `tb_dataolah`
-  MODIFY `kode_dataolah` int(15) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=128;
-
---
--- AUTO_INCREMENT for table `tb_report`
---
-ALTER TABLE `tb_report`
-  MODIFY `id_report` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=32;
+  MODIFY `kode_dataolah` int(15) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=129;
 
 --
 -- Constraints for dumped tables
