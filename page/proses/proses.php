@@ -633,7 +633,7 @@
 
                         for ($b=0;$b<1;$b++) {
                             if ($jumquery[$a] > 0) {
-                                echo "<td><a class='btn btn-warning btn-xs'>".$jumquery[$a]."</a></td>";
+                                echo "<td><span class='badge bg-yellow'>".$jumquery[$a]."</span></td>";
                             } else {
                                 echo "<td>".$jumquery[$a]."</td>";
                             }
@@ -641,7 +641,7 @@
 
                         for ($b=0;$b<1;$b++) {
                             if ($jumkad1[$a] > 0) {
-                                echo "<td><a class='btn btn-primary btn-xs'>".$jumkad1[$a]."</a></td>";
+                                echo "<td><span class='badge bg-blue'>".$jumkad1[$a]."</span></td>";
                             } else {
                                 echo "<td>".$jumkad1[$a]."</td>";
                             }
@@ -649,7 +649,7 @@
 
                         for ($b=0;$b<1;$b++) {
                             if ($jumkad2[$a] > 0) {
-                                echo "<td><a class='btn btn-primary btn-xs'>".$jumkad2[$a]."</a></td>";
+                                echo "<td><span class='badge bg-blue'>".$jumkad2[$a]."</span></td>";
                             } else {
                                 echo "<td>".$jumkad2[$a]."</td>";
                             }
@@ -657,7 +657,7 @@
 
                         for ($b=0;$b<1;$b++) {
                             if ($jumkad3[$a] > 0) {
-                                echo "<td><a class='btn btn-primary btn-xs'>".$jumkad3[$a]."</a></td>";
+                                echo "<td><span class='badge bg-blue'>".$jumkad3[$a]."</span></td>";
                             } else {
                                 echo "<td>".$jumkad3[$a]."</td>";
                             }
@@ -665,7 +665,7 @@
 
                         for ($b=0;$b<1;$b++) {
                             if ($jumkad4[$a] > 0) {
-                                echo "<td><a class='btn btn-primary btn-xs'>".$jumkad4[$a]."</a></td>";
+                                echo "<td><span class='badge bg-blue'>".$jumkad4[$a]."</span></td>";
                             } else {
                                 echo "<td>".$jumkad4[$a]."</td>";
                             }
@@ -673,7 +673,7 @@
 
                         for ($b=0;$b<1;$b++) {
                             if ($jumkad5[$a] > 0) {
-                                echo "<td><a class='btn btn-primary btn-xs'>".$jumkad5[$a]."</a></td>";
+                                echo "<td><span class='badge bg-blue'>".$jumkad5[$a]."</span></td>";
                             } else {
                                 echo "<td>".$jumkad5[$a]."</td>";
                             }
@@ -681,19 +681,19 @@
 
                         for ($b=0;$b<1;$b++) {
                             if ($jumkad6[$a] > 0) {
-                                echo "<td><a class='btn btn-primary btn-xs'>".$jumkad6[$a]."</a></td>";
+                                echo "<td><span class='badge bg-blue'>".$jumkad6[$a]."</span></td>";
                             } else {
                                 echo "<td>".$jumkad6[$a]."</td>";
                             }
                         }
 
                         for ($b=0;$b<1;$b++) {
-                            echo "<td><a class='btn btn-primary btn-xs'>6</a></td>";
+                            echo "<td><span class='badge bg-blue'>6</span></td>";
                         }
 
                         for ($b=0;$b<1;$b++) {
                             if ($df[$a] > 0) {
-                                echo "<td><a class='btn btn-danger btn-xs'>".$df[$a]."</a></td>";
+                                echo "<td><span class='badge bg-red'>".$df[$a]."</span></td>";
                             } else {
                                 echo "<td>".$df[$a]."</td>";
                             }
@@ -701,7 +701,7 @@
 
                         for ($b=0;$b<1;$b++) {
                             if ($d_df[$a] > 0) {
-                                echo "<td><a class='btn btn-info btn-xs'>".$d_df[$a]."</a></td>";
+                                echo "<td><span class='badge bg-teal'>".$d_df[$a]."</span></td>";
                             } else {
                                 echo "<td>".$d_df[$a]."</td>";
                             }
@@ -709,7 +709,7 @@
 
                         for ($b=0;$b<1;$b++) {
                             if ($idf[$a] > 0) {
-                                echo "<td><a class='btn btn-success btn-xs'>".number_format($idf[$a],5)."</a></td>";
+                                echo "<td><span class='badge bg-green'>".number_format($idf[$a],5)."</span></td>";
                             } else {
                                 echo "<td>".number_format($idf[$a],4)."</td>";
                             }
@@ -717,7 +717,7 @@
 
                         for ($b=0;$b<1;$b++) {
                             if ($wdtq[$a] > 0) {
-                                echo "<td><a class='btn btn-primary btn-xs'>".number_format($wdtq[$a],5)."</a></td>";
+                                echo "<td><span class='badge bg-blue'>".number_format($wdtq[$a],5)."</span></td>";
                             } else {
                                 echo "<td>".$wdtq[$a]."</td>";
                             }
@@ -725,7 +725,7 @@
 
                         for ($b=0;$b<1;$b++) {
                             if ($wdtd1[$a] > 0) {
-                                echo "<td><a class='btn btn-primary btn-xs'>".number_format($wdtd1[$a],5)."</a></td>";
+                                echo "<td><span class='badge bg-blue'>".number_format($wdtd1[$a],5)."</span></td>";
                             } else {
                                 echo "<td>".$wdtd1[$a]."</td>";
                             }
@@ -733,7 +733,7 @@
 
                         for ($b=0;$b<1;$b++) {
                             if ($wdtd2[$a] > 0) {
-                                echo "<td><a class='btn btn-primary btn-xs'>".number_format($wdtd2[$a],5)."</a></td>";
+                                echo "<td><span class='badge bg-blue'>".number_format($wdtd2[$a],5)."</span></td>";
                             } else {
                                 echo "<td>".$wdtd2[$a]."</td>";
                             }
@@ -741,7 +741,7 @@
 
                         for ($b=0;$b<1;$b++) {
                             if ($wdtd3[$a] > 0) {
-                                echo "<td><a class='btn btn-primary btn-xs'>".number_format($wdtd3[$a],5)."</a></td>";
+                                echo "<td><span class='badge bg-blue'>".number_format($wdtd3[$a],5)."</span></td>";
                             } else {
                                 echo "<td>".$wdtd3[$a]."</td>";
                             }
@@ -749,7 +749,7 @@
 
                         for ($b=0;$b<1;$b++) {
                             if ($wdtd4[$a] > 0) {
-                                echo "<td><a class='btn btn-primary btn-xs'>".number_format($wdtd4[$a],5)."</a></td>";
+                                echo "<td><span class='badge bg-blue'>".number_format($wdtd4[$a],5)."</span></td>";
                             } else {
                                 echo "<td>".$wdtd4[$a]."</td>";
                             }
@@ -757,7 +757,7 @@
 
                         for ($b=0;$b<1;$b++) {
                             if ($wdtd5[$a] > 0) {
-                                echo "<td><a class='btn btn-primary btn-xs'>".number_format($wdtd5[$a],5)."</a></td>";
+                                echo "<td><span class='badge bg-blue'>".number_format($wdtd5[$a],5)."</span></td>";
                             } else {
                                 echo "<td>".$wdtd5[$a]."</td>";
                             }
@@ -765,7 +765,7 @@
 
                         for ($b=0;$b<1;$b++) {
                             if ($wdtd6[$a] > 0) {
-                                echo "<td><a class='btn btn-primary btn-xs'>".number_format($wdtd6[$a],5)."</a></td>";
+                                echo "<td><span class='badge bg-blue'>".number_format($wdtd6[$a],5)."</span></td>";
                             } else {
                                 echo "<td>".$wdtd6[$a]."</td>";
                             }
@@ -829,7 +829,7 @@
 
                         for ($b=0;$b<1;$b++) {
                             if ($wd5d1[$a] > 0) {
-                                echo "<td><a class='btn btn-primary btn-xs'>".number_format($wd5d1[$a],5)."</a></td>";
+                                echo "<td><span class='badge bg-blue'>".number_format($wd5d1[$a],5)."</span></td>";
                             } else {
                                 echo "<td>".$wd5d1[$a]."</td>";
                             }
@@ -837,7 +837,7 @@
 
                         for ($b=0;$b<1;$b++) {
                             if ($wd5d2[$a] > 0) {
-                                echo "<td><a class='btn btn-primary btn-xs'>".number_format($wd5d2[$a],5)."</a></td>";
+                                echo "<td><span class='badge bg-blue'>".number_format($wd5d2[$a],5)."</span></td>";
                             } else {
                                 echo "<td>".$wd5d2[$a]."</td>";
                             }
@@ -845,7 +845,7 @@
 
                         for ($b=0;$b<1;$b++) {
                             if ($wd5d3[$a] > 0) {
-                                echo "<td><a class='btn btn-primary btn-xs'>".number_format($wd5d3[$a],5)."</a></td>";
+                                echo "<td><span class='badge bg-blue'>".number_format($wd5d3[$a],5)."</span></td>";
                             } else {
                                 echo "<td>".$wd5d3[$a]."</td>";
                             }
@@ -853,7 +853,7 @@
 
                         for ($b=0;$b<1;$b++) {
                             if ($wd5d4[$a] > 0) {
-                                echo "<td><a class='btn btn-primary btn-xs'>".number_format($wd5d4[$a],5)."</a></td>";
+                                echo "<td><span class='badge bg-blue'>".number_format($wd5d4[$a],5)."</span></td>";
                             } else {
                                 echo "<td>".$wd5d4[$a]."</td>";
                             }
@@ -861,7 +861,7 @@
 
                         for ($b=0;$b<1;$b++) {
                             if ($wd5d5[$a] > 0) {
-                                echo "<td><a class='btn btn-primary btn-xs'>".number_format($wd5d5[$a],5)."</a></td>";
+                                echo "<td><span class='badge bg-blue'>".number_format($wd5d5[$a],5)."</span></td>";
                             } else {
                                 echo "<td>".$wd5d5[$a]."</td>";
                             }
@@ -869,7 +869,7 @@
 
                         for ($b=0;$b<1;$b++) {
                             if ($wd5d6[$a] > 0) {
-                                echo "<td><a class='btn btn-primary btn-xs'>".number_format($wd5d6[$a],5)."</a></td>";
+                                echo "<td><span class='badge bg-blue'>".number_format($wd5d6[$a],5)."</span></td>";
                             } else {
                                 echo "<td>".$wd5d6[$a]."</td>";
                             }
@@ -879,7 +879,7 @@
 
                         for ($b=0;$b<1;$b++) {
                             if ($powwdtq[$a] > 0) {
-                                echo "<td><a class='btn btn-primary btn-xs'>".number_format($powwdtq[$a],5)."</a></td>";
+                                echo "<td><span class='badge bg-blue'>".number_format($powwdtq[$a],5)."</span></td>";
                             } else {
                                 echo "<td>".$powwdtq[$a]."</td>";
                             }
@@ -887,7 +887,7 @@
 
                         for ($b=0;$b<1;$b++) {
                             if ($powwdtd1[$a] > 0) {
-                                echo "<td><a class='btn btn-primary btn-xs'>".number_format($powwdtd1[$a],5)."</a></td>";
+                                echo "<td><span class='badge bg-blue'>".number_format($powwdtd1[$a],5)."</span></td>";
                             } else {
                                 echo "<td>".$powwdtd1[$a]."</td>";
                             }
@@ -895,7 +895,7 @@
 
                         for ($b=0;$b<1;$b++) {
                             if ($powwdtd2[$a] > 0) {
-                                echo "<td><a class='btn btn-primary btn-xs'>".number_format($powwdtd2[$a],5)."</a></td>";
+                                echo "<td><span class='badge bg-blue'>".number_format($powwdtd2[$a],5)."</span></td>";
                             } else {
                                 echo "<td>".$powwdtd2[$a]."</td>";
                             }
@@ -903,7 +903,7 @@
 
                         for ($b=0;$b<1;$b++) {
                             if ($powwdtd3[$a] > 0) {
-                                echo "<td><a class='btn btn-primary btn-xs'>".number_format($powwdtd3[$a],5)."</a></td>";
+                                echo "<td><span class='badge bg-blue'>".number_format($powwdtd3[$a],5)."</span></td>";
                             } else {
                                 echo "<td>".$powwdtd3[$a]."</td>";
                             }
@@ -911,7 +911,7 @@
 
                         for ($b=0;$b<1;$b++) {
                             if ($powwdtd4[$a] > 0) {
-                                echo "<td><a class='btn btn-primary btn-xs'>".number_format($powwdtd4[$a],5)."</a></td>";
+                                echo "<td><span class='badge bg-blue'>".number_format($powwdtd4[$a],5)."</span></td>";
                             } else {
                                 echo "<td>".$powwdtd4[$a]."</td>";
                             }
@@ -919,7 +919,7 @@
 
                         for ($b=0;$b<1;$b++) {
                             if ($powwdtd5[$a] > 0) {
-                                echo "<td><a class='btn btn-primary btn-xs'>".number_format($powwdtd5[$a],5)."</a></td>";
+                                echo "<td><span class='badge bg-blue'>".number_format($powwdtd5[$a],5)."</span></td>";
                             } else {
                                 echo "<td>".$powwdtd5[$a]."</td>";
                             }
@@ -927,7 +927,7 @@
 
                         for ($b=0;$b<1;$b++) {
                             if ($powwdtd6[$a] > 0) {
-                                echo "<td><a class='btn btn-primary btn-xs'>".number_format($powwdtd6[$a],5)."</a></td>";
+                                echo "<td><span class='badge bg-blue'>".number_format($powwdtd6[$a],5)."</span></td>";
                             } else {
                                 echo "<td>".$powwdtd6[$a]."</td>";
                             }
@@ -941,27 +941,27 @@
                     echo "<th rowspan='2'>JUMLAH</th>";
                     
                     for ($a=0;$a<1;$a++) {
-                        echo "<td><a class='btn btn-success'>".number_format($sumwd5d1[$a],5)."</a></td>";
+                        echo "<td><span class='badge bg-green'>".number_format($sumwd5d1[$a],5)."</span></td>";
                     }
 
                     for ($a=0;$a<1;$a++) {
-                        echo "<td><a class='btn btn-success'>".number_format($sumwd5d2[$a],5)."</a></td>";
+                        echo "<td><span class='badge bg-green'>".number_format($sumwd5d2[$a],5)."</span></td>";
                     }
 
                     for ($a=0;$a<1;$a++) {
-                        echo "<td><a class='btn btn-success'>".number_format($sumwd5d3[$a],5)."</a></td>";
+                        echo "<td><span class='badge bg-green'>".number_format($sumwd5d3[$a],5)."</span></td>";
                     }
 
                     for ($a=0;$a<1;$a++) {
-                        echo "<td><a class='btn btn-success'>".number_format($sumwd5d4[$a],5)."</a></td>";
+                        echo "<td><span class='badge bg-green'>".number_format($sumwd5d4[$a],5)."</span></td>";
                     }
 
                     for ($a=0;$a<1;$a++) {
-                        echo "<td><a class='btn btn-success'>".number_format($sumwd5d5[$a],5)."</a></td>";
+                        echo "<td><span class='badge bg-green'>".number_format($sumwd5d5[$a],5)."</span></td>";
                     }
 
                     for ($a=0;$a<1;$a++) {
-                        echo "<td><a class='btn btn-success'>".number_format($sumwd5d6[$a],5)."</a></td>";
+                        echo "<td><span class='badge bg-green'>".number_format($sumwd5d6[$a],5)."</span></td>";
                     }
 
                     for ($a=0;$a<1;$a++) {
@@ -969,31 +969,31 @@
                     }
 
                     for ($a=0;$a<1;$a++) {
-                        echo "<td><a class='btn btn-success'>".number_format($sumpowq[$a],5)."</a></td>";
+                        echo "<td><span class='badge bg-green'>".number_format($sumpowq[$a],5)."</span></td>";
                     }
 
                     for ($a=0;$a<1;$a++) {
-                        echo "<td><a class='btn btn-success'>".number_format($sumpowd1[$a],5)."</a></td>";
+                        echo "<td><span class='badge bg-green'>".number_format($sumpowd1[$a],5)."</span></td>";
                     }
 
                     for ($a=0;$a<1;$a++) {
-                        echo "<td><a class='btn btn-success'>".number_format($sumpowd2[$a],5)."</a></td>";
+                        echo "<td><span class='badge bg-green'>".number_format($sumpowd2[$a],5)."</span></td>";
                     }
 
                     for ($a=0;$a<1;$a++) {
-                        echo "<td><a class='btn btn-success'>".number_format($sumpowd3[$a],5)."</a></td>";
+                        echo "<td><span class='badge bg-green'>".number_format($sumpowd3[$a],5)."</span></td>";
                     }
 
                     for ($a=0;$a<1;$a++) {
-                        echo "<td><a class='btn btn-success'>".number_format($sumpowd4[$a],5)."</a></td>";
+                        echo "<td><span class='badge bg-green'>".number_format($sumpowd4[$a],5)."</span></td>";
                     }
 
                     for ($a=0;$a<1;$a++) {
-                        echo "<td><a class='btn btn-success'>".number_format($sumpowd5[$a],5)."</a></td>";
+                        echo "<td><span class='badge bg-green'>".number_format($sumpowd5[$a],5)."</span></td>";
                     }
 
                     for ($a=0;$a<1;$a++) {
-                        echo "<td><a class='btn btn-success'>".number_format($sumpowd6[$a],5)."</a></td>";
+                        echo "<td><span class='badge bg-green'>".number_format($sumpowd6[$a],5)."</span></td>";
                     }
 
                     echo "</tr>";
@@ -1004,31 +1004,31 @@
                     }
 
                     for ($a=0;$a<1;$a++) {
-                        echo "<td><a class='btn btn-success'>".number_format($akarq[$a],5)."</a></td>";
+                        echo "<td><span class='badge bg-green'>".number_format($akarq[$a],5)."</span></td>";
                     }
 
                     for ($a=0;$a<1;$a++) {
-                        echo "<td><a class='btn btn-success'>".number_format($akard1[$a],5)."</a></td>";
+                        echo "<td><span class='badge bg-green'>".number_format($akard1[$a],5)."</span></td>";
                     }
 
                     for ($a=0;$a<1;$a++) {
-                        echo "<td><a class='btn btn-success'>".number_format($akard2[$a],5)."</a></td>";
+                        echo "<td><span class='badge bg-green'>".number_format($akard2[$a],5)."</span></td>";
                     }
 
                     for ($a=0;$a<1;$a++) {
-                        echo "<td><a class='btn btn-success'>".number_format($akard3[$a],5)."</a></td>";
+                        echo "<td><span class='badge bg-green'>".number_format($akard3[$a],5)."</span></td>";
                     }
                     
                     for ($a=0;$a<1;$a++) {
-                        echo "<td><a class='btn btn-success'>".number_format($akard4[$a],5)."</a></td>";
+                        echo "<td><span class='badge bg-green'>".number_format($akard4[$a],5)."</span></td>";
                     }
 
                     for ($a=0;$a<1;$a++) {
-                        echo "<td><a class='btn btn-success'>".number_format($akard5[$a],5)."</a></td>";
+                        echo "<td><span class='badge bg-green'>".number_format($akard5[$a],5)."</span></td>";
                     }
 
                     for ($a=0;$a<1;$a++) {
-                        echo "<td><a class='btn btn-success'>".number_format($akard6[$a],5)."</a></td>";
+                        echo "<td><span class='badge bg-green'>".number_format($akard6[$a],5)."</span></td>";
                     }
 
                     echo "</tr>";
