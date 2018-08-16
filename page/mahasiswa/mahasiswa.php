@@ -6,6 +6,9 @@
     <div class="box-header with-border">
       <h3 class="box-title"><b>DATA</b> | MAHASISWA</h3>
       <div class="pull-right">
+        <!-- <a class="btn btn-success" href="?tampil=mahasiswa_impor">
+          <span class="fa fa-file"></span> Import Data
+        </a> -->
         <a class="btn btn-danger" href="#" data-target="#modal_tambah" data-toggle="modal">
           <span class="fa fa-plus-circle"></span> Tambah Data
         </a>

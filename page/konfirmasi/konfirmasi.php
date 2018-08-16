@@ -4,7 +4,7 @@
 <div class="col-xs-12">
   <div class="box box-danger">
     <div class="box-header with-border">
-      <h3 class="box-title"><b>DATA</b> | KONFIRMASI</h3>
+      <h3 class="box-title"><b>DATA</b> | KONFIRMASI <?php if ($role == 0) {echo "- DRAFT USULAN";} ?></h3>
       <div class="pull-right">
 
         <?php if ($role == 0) { ?>
@@ -150,8 +150,8 @@
               <td>
               <?php 
                 if ($data['status_report'] == 0) {
-                  echo "<a href='?tampil=konfirmasi_usulan&id=$data[id_report]' class='btn btn-info btn-sm'><i class='fa fa-hourglass-2'></i> Draft/Usulan</a>";
-                  echo "<a href='?tampil=konfirmasi_tolak&id=$data[id_report]' class='btn btn-danger btn-sm'><i class='fa fa-remove'></i> Draft tidak sesuai</a>";
+                  echo "<a href='?tampil=konfirmasi_usulan&id=$data[id_report]' class='btn btn-info btn-sm'><i class='fa fa-hourglass-2'></i> Draft/Usulan Sesuai</a>";
+                  echo "<a href='?tampil=konfirmasi_tolak&id=$data[id_report]' class='btn btn-danger btn-sm'><i class='fa fa-remove'></i> Draft/Usulan Tidak Sesuai</a>";
                 } else if ($data['status_report'] == 1) {
                   echo "<a class='btn btn-success btn-sm'><i class='fa fa-check-square'></i> Diterima</a>";
                 } else {

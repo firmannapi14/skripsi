@@ -3,15 +3,15 @@ include '../lib/connection.php';
 // memanggil library FPDF
 require('fpdf.php');
 // intance object dan memberikan pengaturan halaman PDF
-$pdf = new FPDF('P','mm','LEGAL');
+$pdf = new FPDF('L','mm','LEGAL');
 // membuat halaman baru
 $pdf->AddPage();
 // setting jenis font yang akan digunakan
 $pdf->Image('img/logostt.png',10,5);
 $pdf->SetFont('Arial','B',20);
-$pdf->Cell(210,10,'** DAFTAR PENGESAHAN SKPI **',0,1,'C');
+$pdf->Cell(350,10,'** DAFTAR PENGESAHAN SKPI **',0,1,'C');
 $pdf->SetFont('Arial','I',13);
-$pdf->Cell(210,10,'Sekolah Tinggi Teknik PLN Jakarta',0,1,'C');
+$pdf->Cell(350,10,'Sekolah Tinggi Teknik PLN Jakarta',0,1,'C');
 
 if ($_GET['role'] != "" && $_GET['id'] != 0 ) {
     $mhs     = mysqli_query($conn, "SELECT * FROM tb_mahasiswa WHERE nim=$_GET[id]");
@@ -50,16 +50,18 @@ if ($_GET['role'] != "" && $_GET['id'] != 0 ) {
             $pdf->Cell(10,6,'No.',1,0,'C');
             $pdf->Cell(45,6,'Klasifikasi',1,0,'C');
             $pdf->Cell(25,6,'Tanggal Terbit',1,0,'C');
-            $pdf->Cell(110,6,'Judul',1,1,'C');
+            $pdf->Cell(120,6,'Judul Indonesia',1,0,'C');
+            $pdf->Cell(120,6,'Judul Inggris',1,1,'C');
         } else {
             $pdf->Cell(10,7,'',0,1);
             $pdf->SetFont('Arial','B',8);
             $pdf->Cell(10,6,'No.',1,0,'C');
-            $pdf->Cell(18,6,'Klasifikasi',1,0,'C');
+            $pdf->Cell(18,6,'NIM',1,0,'C');
             $pdf->Cell(45,6,'Nama Mahasiswa',1,0,'C');
             $pdf->Cell(35,6,'Klasifikasi',1,0,'C');
             $pdf->Cell(23,6,'Tanggal Terbit',1,0,'C');
-            $pdf->Cell(70,6,'Judul',1,1,'C');
+            $pdf->Cell(97,6,'Judul Indonesia',1,0,'C');
+            $pdf->Cell(97,6,'Judul Inggris',1,1,'C');
         }
     }
 }
@@ -91,7 +93,8 @@ if ($_GET['role'] != "" && $_GET['id'] != 0) {
                 $pdf->Cell(10,6,$no.".",1,0,'C');
                 $pdf->Cell(45,6,$row['klasifikasi'],1,0);
                 $pdf->Cell(25,6,date('d M Y', strtotime($row['tgl_terbit'])),1,0);
-                $pdf->Cell(110,6,$row['judul_indonesia'],1,1);
+                $pdf->Cell(120,6,$row['judul_indonesia'],1,0);
+                $pdf->Cell(120,6,$row['judul_inggris'],1,1);
                 $no++;
             }
         } else {
@@ -107,7 +110,8 @@ if ($_GET['role'] != "" && $_GET['id'] != 0) {
                 $pdf->Cell(45,6,$row['nama_mahasiswa'],1,0,'');
                 $pdf->Cell(35,6,$row['klasifikasi'],1,0);
                 $pdf->Cell(23,6,date('d M Y', strtotime($row['tgl_terbit'])),1,0,'C');
-                $pdf->Cell(70,6,$row['judul_indonesia'],1,1);
+                $pdf->Cell(97,6,$row['judul_indonesia'],1,0);
+                $pdf->Cell(97,6,$row['judul_inggris'],1,1);
                 $no++;
             }
         }

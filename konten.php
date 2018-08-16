@@ -14,6 +14,8 @@
   elseif ($tampil == "mahasiswa_edit") include("page/mahasiswa/mahasiswa_edit.php");
   elseif ($tampil == "mahasiswa_editpro") include("page/mahasiswa/mahasiswa_editpro.php");
   elseif ($tampil == "mahasiswa_hapus") include("page/mahasiswa/mahasiswa_hapus.php");
+  elseif ($tampil == "mahasiswa_impor") include("page/mahasiswa/mahasiswa_impor.php");
+  elseif ($tampil == "mahasiswa_imporpro") include("page/mahasiswa/mahasiswa_imporpro.php");
 
   // ------------------------ SERTIFIKAT ------------------------
   elseif ($tampil == "profil") include("page/profil/profil.php");
@@ -48,6 +50,7 @@
   // ------------------------ SERTIFIKAT ------------------------
   elseif ($tampil == "proses") include("page/proses/proses.php");
   elseif ($tampil == "proses_user") include("page/proses/proses_user.php");
+  elseif ($tampil == "proses_userpro") include("page/proses/proses_userpro.php");
 
 else echo"Konten tidak ada";
 
